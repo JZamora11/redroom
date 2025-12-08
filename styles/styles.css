@@ -49,7 +49,7 @@ h1, h2, h3, h4 {
 }
 
 .logoWeb h1 span {
-    color: #8B0000;
+    color: #EA1F3C;
 }
 
 .menuNav ul {
@@ -75,7 +75,7 @@ h1, h2, h3, h4 {
 
 .menuNav ul li a:hover,
 .menuNav ul li a.is-active {
-    background-color: #8B0000;
+    background-color: #EA1F3C;
     background-image: url(../assets/backgroundSecondary.png);
 }
 
@@ -114,7 +114,7 @@ h1, h2, h3, h4 {
 
 .contentHero span {
     color: #8B0000;
-    text-shadow: 2px 2px 5px rgba(1, 146, 182, 0.5);
+    text-shadow: 2px 2px 0 rgba(68, 50, 50, 0.5);
 }
 
 .contentHero p {
