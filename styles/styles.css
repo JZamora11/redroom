@@ -95,7 +95,7 @@ h1, h2, h3, h4 {
 .heroSite {
     display: flex;
     justify-content: center;
-    background: url(../assets/img/backgroundHero.jpg) center;
+    background: url(../assets/img/backgroundHero.webp) center;
     background-size: cover;
     height: calc(100vh - 86px);
 }
