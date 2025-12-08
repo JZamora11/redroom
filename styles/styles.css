@@ -161,6 +161,7 @@ h1, h2, h3, h4 {
 .imgGhost img {
     width: 100%;
     height: auto;
+    aspect-ratio: auto 1429 / 1956;
 }
 
 .imgGhost img:hover {
