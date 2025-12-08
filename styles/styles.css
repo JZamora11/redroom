@@ -84,6 +84,8 @@ h1, h2, h3, h4 {
 }
 
 .menuNav ul li a img {
+    width: 24px;
+    height: 24px;
     margin-right: 5px;
 }
 
@@ -158,6 +160,7 @@ h1, h2, h3, h4 {
 
 .imgGhost img {
     width: 100%;
+    height: auto;
 }
 
 .imgGhost img:hover {
@@ -291,6 +294,9 @@ h1, h2, h3, h4 {
 }
 
 .imgMovie img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto 1920 / 1080;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -318,6 +324,7 @@ h1, h2, h3, h4 {
 
 .infoTop .rateMovie img {
     width: 23px;
+    height: 23px;
 }
 
 .infoTop .rateMovie span {
