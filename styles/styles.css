@@ -1,11 +1,13 @@
 /* Tipografía */
 @font-face {
     font-family: 'Jolly Lodger';
+    font-display: swap;
     src: url(../fonts/Jolly_Lodger/JollyLodger-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Inter';
+    font-display: swap;
     src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
 }
 
