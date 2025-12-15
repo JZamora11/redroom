@@ -40,6 +40,10 @@ h1, h2, h3, h4 {
   padding: 10px 30px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
 }
+#header .logoWeb a {
+  text-decoration: none;
+  color: #E5E5E5;
+}
 #header .logoWeb h1 {
   font-size: 3.375rem;
 }
