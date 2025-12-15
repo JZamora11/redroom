@@ -1,0 +1,58 @@
+@use '../utilities/variables' as *;
+
+/* Header */
+#header {
+    position: relative;
+    background: $blackColor;
+    font-family: $fontJolly;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+
+    .logoWeb h1 {
+        font-size: 3.375rem;
+
+        span {
+            color: $redColor;
+        }
+    }
+
+    .menuNav ul {
+        display: flex;
+        flex-flow: row wrap;
+        list-style: none;
+
+        li {
+            margin-left: 5px;
+
+            a {
+                display: flex;
+                align-items: center;
+                color: $whiteColor;
+                font-size: 1.625rem;
+                text-decoration: none;
+                padding: 5px 10px;
+                border-radius: 5px;
+                /* corner-shape: scoop; */
+
+                &:hover,
+                &.is-active {
+                    background-color: $redColor;
+                    background-image: url(../assets/backgroundSecondary.png);
+                }
+
+                &.is-active {
+                    pointer-events: none;
+                }
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

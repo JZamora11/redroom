@@ -1,0 +1,189 @@
+@use '../utilities/variables' as *;
+
+
+/* Responsive Design */
+
+/* Mobile */
+@media (max-width: 480px) {
+    /* Encabezado */
+    #header {
+        flex-direction: column;
+        padding: 25px 0;
+
+        .logoWeb h1 {
+            margin-bottom: 10px;
+        }
+
+        .menuNav {
+            ul {
+                flex-direction: column;
+                align-items: center;
+
+                li a {
+                    margin: 3px 0;
+                }
+            } 
+        }
+    }
+
+
+    /* Contenido: Página principal */
+    .heroSite {
+        height: calc(100vh - 300px);
+
+        .contentHero {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 100px;
+
+            h2 {
+                font-size: 4rem;
+                line-height: 4.5rem;
+                margin-bottom: 20px;
+            }
+
+            a {
+                margin-top: 20px;
+                font-size: 1.7rem;
+                padding: 10px 40px;
+            }
+        }
+    }
+
+    .infoSite {
+        flex-direction: column-reverse;
+        text-align: center;
+
+        .textInfo {
+            width: 75%;
+            font-size: 1.2rem;
+        }
+
+        .imgGhost {
+            width: 50%;
+            margin: 0;
+            margin-bottom: 30px;
+        }
+    }
+
+    .moviesMonth {
+        padding: 0;
+
+        .nameMovie {
+            padding: 40px 20px 5px;
+        }
+
+        a {
+            margin-bottom: 40px;
+        }
+    }
+
+
+    /* Contenido: Villanos */
+    .cardVillain article {
+        flex-direction: column;
+        width: 85%;
+        height: auto;
+
+        .imgVillain {
+            width: 100%;
+            height: 450px;
+
+            .skulls {
+                bottom: 20px;
+                font-size: 1.3rem;
+                padding: 5px 15px;
+            }
+        }
+
+        .infoVillain {
+            width: 100%;
+            padding: 20px;
+
+            h2 {
+                font-size: 3rem;
+                margin: 5px 0;
+            }
+
+            .textVillain {
+                font-size: 1rem;
+            }
+        }
+    }
+
+
+    /* Contenido: Galería */
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        width: 90%;
+        grid-auto-rows: 175px;
+
+        .imgGallery {
+            border-radius: 10px;
+        }
+    }
+
+
+    /* Contenido: Contacto */
+    .formSection {
+        form {
+            width: 85%;
+            margin-top: 20px;
+        }
+
+        input[type="submit"] {
+            margin: 0 0 0 auto;
+        }
+    }
+
+    .socialSection {
+        text-align: center;
+        margin: 70px 30px 50px;
+
+        .socialMedia {
+            flex-direction: column;
+
+            a {
+                display: flex;
+                justify-content: center;
+                margin: 8px 10px;
+            }
+        }
+    }
+
+
+    /* Footer */
+    .bgFooter {
+        height: auto;
+        padding: 70px 30px;
+    }
+
+    .footerWeb {
+        flex-direction: column;
+
+        .copySite {
+            .copyShow {
+                display: none;
+            }
+
+            .copyHide {
+                display: flex;
+            }
+
+            p {
+                font-size: 1.3rem;
+            }
+
+            strong {
+                font-size: 2.5rem;
+                margin-right: 10px;
+            }
+
+            a {
+                margin: 0 10px;
+            }
+        }
+    }
+}

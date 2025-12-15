@@ -1,0 +1,53 @@
+@use '../utilities/variables' as *;
+
+
+/* Contenido: Top Terror */
+.cardTop {
+    color: #07080a;
+
+    article {
+        background-color: #E5E5E5;
+
+        .imgMovie {
+            img {
+                width: 100%;
+                height: auto;
+                aspect-ratio: auto 1920 / 1080;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            }
+
+            span {
+                bottom: 12px;
+                right: 7px;
+                background-color: $redColor;
+                background-image: url(../assets/backgroundSecondary.png);
+                color: #E5E5E5;
+                font-size: 0.9rem;
+            }
+        }
+
+        .infoTop {
+            font-size: 0.9rem;
+
+            h3 span {
+                color: $redColor;
+            }
+
+            .genre {
+                font-size: 0.8rem;
+                margin-bottom: 5px;
+            }
+
+            .rateMovie {
+                img {
+                    width: 23px;
+                    height: 23px;
+                }
+                
+                span {
+                    margin-left: 2px;
+                }
+            }
+        }
+    }
+}

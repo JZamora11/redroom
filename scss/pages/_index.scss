@@ -1,0 +1,202 @@
+@use '../utilities/variables' as *;
+
+
+/* Contenido: Página principal */
+.heroSite {
+    display: flex;
+    justify-content: center;
+    background: url(../assets/img/backgroundHero.webp) center;
+    background-size: cover;
+    height: calc(100vh - 86px);
+
+    .contentHero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80%;
+        height: calc(100vh - 300px);
+
+        h2 {
+            font-size: 7rem;
+            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+        }
+
+        span {
+            color: $redColor;
+            text-shadow: 2px 2px 0 rgba(68, 50, 50, 0.5);
+        }
+
+        p {
+            font-size: 1.125rem;
+            margin-top: -10px;
+        }
+
+        a {
+            background-color: $redColor;
+            color: $whiteColor;
+            font-size: 1.75rem;
+            font-family: $fontJolly;
+            text-decoration: none;
+            margin-top: 30px;
+            padding: 10px 25px;
+            border-radius: 40px;
+            /* corner-shape: squircle; */
+
+            &:hover {
+                padding: 10px 35px;
+            }
+        }
+    }
+}
+
+
+/* Sección: Descripción del sitio web */
+.infoSite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+
+    .textInfo {
+        width: 600px;
+        font-size: 1.5rem;
+    }
+
+    .imgGhost {
+        width: 200px;
+        margin-left: 40px;
+
+        img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: auto 1429 / 1956;
+
+            &:hover {
+                filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.2));
+            }
+        }
+    }
+}
+
+
+/* Sección: Películas destacadas (Top del mes) */
+.moviesMonth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $darkBlueColor;
+    background-image: url(../assets/backgroundSecondary.png);
+    padding: 50px 40px;
+
+    .nameMovie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        text-align: center;
+
+        h2 span {
+            font-size: 2.2rem;
+        }
+
+        hr {
+            width: 40px;
+            margin: 5px 0 10px;
+            border: 1px solid $whiteColor;
+            border-radius: 10px;
+        }
+    }
+
+    a {
+        background-color: $blackColor;
+        color: $whiteColor;
+        font-size: 1.7rem;
+        font-family: $fontJolly;
+        text-decoration: none;
+        margin-top: 10px;
+        padding: 7px 30px;
+        border-radius: 50px;
+        /* corner-shape: squircle; */
+
+        &:hover {
+            padding: 7px 40px;
+        }
+    }
+}
+
+
+/* Sección: Villano del mes */
+.villainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0;
+
+    .nameVillain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.8rem;
+    }
+
+    hr {
+        width: 40px;
+        margin: 5px 0 10px;
+        border: 1px solid $whiteColor;
+        border-radius: 10px;
+    }
+
+    a {
+        background-color: $redColor;
+        color: $whiteColor;
+        font-size: 1.7rem;
+        font-family: $fontJolly;
+        text-decoration: none;
+        margin-top: -20px;
+        padding: 8px 25px;
+        border-radius: 50px;
+        /* corner-shape: squircle; */
+
+        &:hover {
+            padding: 8px 35px;
+        }
+    }
+}
+
+
+/* Títulos en todas las páginas */
+.namePage {
+    padding: 40px 30px 20px;
+
+    .titlePage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 2.5rem;
+
+        img {
+            width: 40px;
+            padding-bottom: 15px;
+        }
+
+        h2 span {
+            font-size: 2.2rem;
+        }
+
+        hr {
+            width: 40px;
+            margin: 10px 0 20px;
+            border: 2px solid $redColor;
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.7rem;
+        }
+    }
+}

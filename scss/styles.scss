@@ -1,0 +1,15 @@
+@use 'utilities/variables' as *;
+
+@use 'general/general';
+
+@use 'general/header';
+
+@use 'pages/index';
+@use 'pages/top-terror';
+@use 'pages/villanos';
+@use 'pages/galeria';
+@use 'pages/contacto';
+
+@use 'general/footer';
+
+@use 'general/responsive';

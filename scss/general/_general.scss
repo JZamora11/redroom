@@ -1,0 +1,35 @@
+@use '../utilities/variables' as *;
+
+
+/* Tipografía */
+@font-face {
+    font-family: 'Jolly Lodger';
+    font-display: swap;
+    src: url(../fonts/Jolly_Lodger/JollyLodger-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-display: swap;
+    src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+
+/* Configuración */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $blackColor;
+    background-image: url(../assets/backgroundSite.png);
+    color: $whiteColor;
+    font-family: $fontInter;
+}
+
+h1, h2, h3, h4 {
+    font-family: $fontJolly;
+    font-weight: bold;
+}
