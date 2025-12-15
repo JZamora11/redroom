@@ -1,854 +1,722 @@
+@charset "UTF-8";
 /* Tipografía */
 @font-face {
-    font-family: 'Jolly Lodger';
-    font-display: swap;
-    src: url(../fonts/Jolly_Lodger/JollyLodger-Regular.ttf);
+  font-family: "Jolly Lodger";
+  font-display: swap;
+  src: url(../fonts/Jolly_Lodger/JollyLodger-Regular.ttf);
 }
-
 @font-face {
-    font-family: 'Inter';
-    font-display: swap;
-    src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+  font-family: "Inter";
+  font-display: swap;
+  src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
 }
-
-
-
 /* Configuración */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #08080a;
-    background-image: url(../assets/backgroundSite.png);
-    color: #E5E5E5;
-    font-family: "Inter", sans-serif;
+  background-color: #08080a;
+  background-image: url(../assets/backgroundSite.png);
+  color: #E5E5E5;
+  font-family: "Inter", sans-serif;
 }
 
 h1, h2, h3, h4 {
-    font-family: "Jolly Lodger", system-ui;
-    font-weight: bold;
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: bold;
 }
-
-
 
 /* Header */
 #header {
-    position: relative;
-    background: #07080a;
-    font-family: "Jolly Lodger", system-ui;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 30px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+  position: relative;
+  background: #08080a;
+  font-family: "Jolly Lodger", system-ui;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
 }
-
-.logoWeb h1 {
-    font-size: 3.375rem;
+#header .logoWeb h1 {
+  font-size: 3.375rem;
 }
-
-.logoWeb h1 span {
-    color: #EA1F3C;
+#header .logoWeb h1 span {
+  color: #8B0000;
 }
-
-.menuNav ul {
-    display: flex;
-    flex-flow: row wrap;
-    list-style: none;
+#header .menuNav ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
 }
-
-.menuNav ul li {
-    margin-left: 5px;
+#header .menuNav ul li {
+  margin-left: 5px;
 }
-
-.menuNav ul li a {
-    display: flex;
-    align-items: center;
-    color: #E5E5E5;
-    font-size: 1.625rem;
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    /* corner-shape: scoop; */
+#header .menuNav ul li a {
+  display: flex;
+  align-items: center;
+  color: #E5E5E5;
+  font-size: 1.625rem;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  /* corner-shape: scoop; */
 }
-
-.menuNav ul li a:hover,
-.menuNav ul li a.is-active {
-    background-color: #EA1F3C;
-    background-image: url(../assets/backgroundSecondary.png);
+#header .menuNav ul li a:hover, #header .menuNav ul li a.is-active {
+  background-color: #8B0000;
+  background-image: url(../assets/backgroundSecondary.png);
 }
-
-.menuNav ul li a.is-active {
-    pointer-events: none;
+#header .menuNav ul li a.is-active {
+  pointer-events: none;
 }
-
-.menuNav ul li a img {
-    width: 24px;
-    height: 24px;
-    margin-right: 5px;
+#header .menuNav ul li a img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
 }
-
-
 
 /* Contenido: Página principal */
 .heroSite {
-    display: flex;
-    justify-content: center;
-    background: url(../assets/img/backgroundHero.webp) center;
-    background-size: cover;
-    height: calc(100vh - 86px);
+  display: flex;
+  justify-content: center;
+  background: url(../assets/img/backgroundHero.webp) center;
+  background-size: cover;
+  height: calc(100vh - 86px);
 }
-
-.contentHero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 80%;
-    height: calc(100vh - 300px);
+.heroSite .contentHero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  height: calc(100vh - 300px);
 }
-
-.contentHero h2 {
-    font-size: 7rem;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+.heroSite .contentHero h2 {
+  font-size: 7rem;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
 }
-
-.contentHero span {
-    color: #8B0000;
-    text-shadow: 2px 2px 0 rgba(68, 50, 50, 0.5);
+.heroSite .contentHero span {
+  color: #8B0000;
+  text-shadow: 2px 2px 0 rgba(68, 50, 50, 0.5);
 }
-
-.contentHero p {
-    font-size: 1.125rem;
-    margin-top: -10px;
+.heroSite .contentHero p {
+  font-size: 1.125rem;
+  margin-top: -10px;
 }
-
-.contentHero a {
-    background-color: #8B0000;
-    color: #fff;
-    font-size: 1.75rem;
-    font-family: "Jolly Lodger", system-ui;
-    text-decoration: none;
-    margin-top: 30px;
-    padding: 10px 25px;
-    border-radius: 40px;
-    /* corner-shape: squircle; */
+.heroSite .contentHero a {
+  background-color: #8B0000;
+  color: #E5E5E5;
+  font-size: 1.75rem;
+  font-family: "Jolly Lodger", system-ui;
+  text-decoration: none;
+  margin-top: 30px;
+  padding: 10px 25px;
+  border-radius: 40px;
+  /* corner-shape: squircle; */
 }
-
-.contentHero a:hover {
-    padding: 10px 35px;
+.heroSite .contentHero a:hover {
+  padding: 10px 35px;
 }
 
 /* Sección: Descripción del sitio web */
 .infoSite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 64px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 0;
 }
-
-.textInfo {
-    width: 600px;
-    font-size: 1.5rem;
+.infoSite .textInfo {
+  width: 600px;
+  font-size: 1.5rem;
 }
-
-.imgGhost {
-    width: 200px;
-    margin-left: 40px;
+.infoSite .imgGhost {
+  width: 200px;
+  margin-left: 40px;
 }
-
-.imgGhost img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: auto 1429 / 1956;
+.infoSite .imgGhost img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto 1429/1956;
 }
-
-.imgGhost img:hover {
-    filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.2));
+.infoSite .imgGhost img:hover {
+  filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.2));
 }
 
 /* Sección: Películas destacadas (Top del mes) */
 .moviesMonth {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #222230;
-    background-image: url(../assets/backgroundSecondary.png);
-    padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222230;
+  background-image: url(../assets/backgroundSecondary.png);
+  padding: 50px 40px;
 }
-
-.nameMovie {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.8rem;
-    line-height: 2.5rem;
-    text-align: center;
+.moviesMonth .nameMovie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-align: center;
 }
-
-.nameMovie h2 span {
-    font-size: 2.2rem;
+.moviesMonth .nameMovie h2 span {
+  font-size: 2.2rem;
 }
-
-.nameMovie hr,
-.nameVillain hr {
-    width: 40px;
-    margin: 5px 0 10px;
-    border: 1px solid #E5E5E5;
-    border-radius: 10px;
+.moviesMonth .nameMovie hr {
+  width: 40px;
+  margin: 5px 0 10px;
+  border: 1px solid #E5E5E5;
+  border-radius: 10px;
 }
-
 .moviesMonth a {
-    background-color: #07080a;
-    color: #E5E5E5;
-    font-size: 1.7rem;
-    font-family: "Jolly Lodger", system-ui;
-    text-decoration: none;
-    margin-top: 10px;
-    padding: 7px 30px;
-    border-radius: 50px;
-    /* corner-shape: squircle; */
+  background-color: #08080a;
+  color: #E5E5E5;
+  font-size: 1.7rem;
+  font-family: "Jolly Lodger", system-ui;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 7px 30px;
+  border-radius: 50px;
+  /* corner-shape: squircle; */
 }
-
 .moviesMonth a:hover {
-    padding: 7px 40px;
+  padding: 7px 40px;
 }
 
 /* Sección: Villano del mes */
 .villainSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0;
 }
-
-.nameVillain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.8rem;
+.villainSection .nameVillain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8rem;
 }
-
+.villainSection hr {
+  width: 40px;
+  margin: 5px 0 10px;
+  border: 1px solid #E5E5E5;
+  border-radius: 10px;
+}
 .villainSection a {
-    background-color: #8B0000;
-    color: #E5E5E5;
-    font-size: 1.7rem;
-    font-family: "Jolly Lodger", system-ui;
-    text-decoration: none;
-    margin-top: -20px;
-    padding: 8px 25px;
-    border-radius: 50px;
-    /* corner-shape: squircle; */
+  background-color: #8B0000;
+  color: #E5E5E5;
+  font-size: 1.7rem;
+  font-family: "Jolly Lodger", system-ui;
+  text-decoration: none;
+  margin-top: -20px;
+  padding: 8px 25px;
+  border-radius: 50px;
+  /* corner-shape: squircle; */
 }
-
 .villainSection a:hover {
-    padding: 8px 35px;
+  padding: 8px 35px;
 }
-
-
 
 /* Títulos en todas las páginas */
 .namePage {
-    padding: 40px 30px 20px;
+  padding: 40px 30px 20px;
 }
-
-.titlePage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 2rem;
-    line-height: 2.5rem;
+.namePage .titlePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
-
-.titlePage img {
-    width: 40px;
-    padding-bottom: 15px;
+.namePage .titlePage img {
+  width: 40px;
+  padding-bottom: 15px;
 }
-
-.titlePage h2 span {
-    font-size: 2.2rem;
+.namePage .titlePage h2 span {
+  font-size: 2.2rem;
 }
-
-.titlePage hr {
-    width: 40px;
-    margin: 10px 0 20px;
-    border: 2px solid #8B0000;
-    border-radius: 10px;
+.namePage .titlePage hr {
+  width: 40px;
+  margin: 10px 0 20px;
+  border: 2px solid #8B0000;
+  border-radius: 10px;
 }
-
-.titlePage p {
-    font-size: 1.1rem;
-    line-height: 1.7rem;
+.namePage .titlePage p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
 }
-
-
 
 /* Contenido: Top Terror */
 .cardTop {
-    color: #07080a;
+  color: #07080a;
 }
-
 .cardTop article {
-    background-color: #E5E5E5;
+  background-color: #E5E5E5;
 }
-
-.imgMovie img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: auto 1920 / 1080;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+.cardTop article .imgMovie img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto 1920/1080;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-
-.imgMovie span {
-    bottom: 12px;
-    right: 7px;
-    background-color: #8B0000;
-    background-image: url(../assets/backgroundSecondary.png);
-    color: #E5E5E5;
-    font-size: 0.9rem;
+.cardTop article .imgMovie span {
+  bottom: 12px;
+  right: 7px;
+  background-color: #8B0000;
+  background-image: url(../assets/backgroundSecondary.png);
+  color: #E5E5E5;
+  font-size: 0.9rem;
 }
-
-.infoTop {
-    font-size: 0.9rem;
+.cardTop article .infoTop {
+  font-size: 0.9rem;
 }
-
-.infoTop h3 span {
-    color: #8B0000;
+.cardTop article .infoTop h3 span {
+  color: #8B0000;
 }
-
-.infoTop .genre {
-    font-size: 0.8rem;
-    margin-bottom: 5px;
+.cardTop article .infoTop .genre {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
 }
-
-.infoTop .rateMovie img {
-    width: 23px;
-    height: 23px;
+.cardTop article .infoTop .rateMovie img {
+  width: 23px;
+  height: 23px;
 }
-
-.infoTop .rateMovie span {
-    margin-left: 2px;
+.cardTop article .infoTop .rateMovie span {
+  margin-left: 2px;
 }
-
-
 
 /* Contenido: Villanos */
 .cardVillain {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: -10px 0 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: -10px 0 30px;
 }
-
 .cardVillain article {
-    display: flex;
-    align-items: center;
-    background-color: #E5E5E5;
-    color: #07080a;
-    width: 45%;
-    height: 350px;
-    margin: 20px 0;
-    border: 2px solid #8B0000;
-    border-radius: 40px;
-    /* corner-shape: squircle; */
-    overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #E5E5E5;
+  color: #08080a;
+  width: 45%;
+  height: 350px;
+  margin: 20px 0;
+  border: 2px solid #8B0000;
+  border-radius: 40px;
+  /* corner-shape: squircle; */
+  overflow: hidden;
 }
-
-.imgVillain {
-    position: relative;
-    width: 30%;
-    height: 100%;
-    overflow: hidden;
+.cardVillain article .imgVillain {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
 }
-
-.imgVillain img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.cardVillain article .imgVillain img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
-.imgVillain .skulls {
-    position: absolute;
-    bottom: 15px;
-    left: 0;
-    right: 0;
-    display: flex;
-    gap: 2px;
-    background-color: #E5E5E5;
-    width: max-content;
-    line-height: 0;
-    margin: 0 auto;
-    padding: 5px 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+.cardVillain article .imgVillain .skulls {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: 2px;
+  background-color: #E5E5E5;
+  width: max-content;
+  line-height: 0;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
 }
-
-.imgVillain .skulls img {
-    width: 25px;
+.cardVillain article .imgVillain .skulls img {
+  width: 25px;
 }
-
-.infoVillain {
-    width: 70%;
-    padding: 30px;
+.cardVillain article .infoVillain {
+  width: 70%;
+  padding: 30px;
 }
-
-.infoVillain span {
-    display: inline-block;
-    background-color: #8B0000;
-    color: #E5E5E5;
-    font-size: 0.8rem;
-    margin-bottom: 5px;
-    padding: 5px 10px;
-    border-radius: 5px;
+.cardVillain article .infoVillain span {
+  display: inline-block;
+  background-color: #8B0000;
+  color: #E5E5E5;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
-
-.infoVillain h2 {
-    font-size: 3.5rem;
-    line-height: 3.3rem;
-    margin: 10px 0;
+.cardVillain article .infoVillain h2 {
+  font-size: 3.5rem;
+  line-height: 3.3rem;
+  margin: 10px 0;
 }
-
-.movieVillain {
-    font-size: 0.9rem;
-    font-weight: 700;
-    font-style: italic;
-    margin-bottom: 20px;
+.cardVillain article .infoVillain .movieVillain {
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 20px;
 }
-
-.textVillain {
-    font-size: 1.2rem;
+.cardVillain article .infoVillain .textVillain {
+  font-size: 1.2rem;
 }
-
-
 
 /* Contenido: Galería */
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 300px;
-    grid-auto-flow: row dense;
-    gap: 15px;
-    width: 70%;
-    margin: 5px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  grid-auto-flow: row dense;
+  gap: 15px;
+  width: 70%;
+  margin: 5px auto 50px;
 }
-
 .gallery img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
-.imgGallery {
-    position: relative;
-    border-radius: 40px;
-    /* corner-shape: squircle; */
-    width: 100%;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+.gallery .imgGallery {
+  position: relative;
+  border-radius: 40px;
+  /* corner-shape: squircle; */
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
-
-.imgGallery .infoGrid {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.9);
-    width: 100%;
-    font-size: 1.5rem;
-    line-height: 1.8rem;
-    padding: 15px;
-    opacity: 0;
+.gallery .imgGallery .infoGrid {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  padding: 15px;
+  opacity: 0;
 }
-
-.imgGallery .infoGrid span {
-    color: #8B0000;
-    font-size: 1.3rem;
-    font-weight: lighter;
-    vertical-align: middle;
+.gallery .imgGallery .infoGrid span {
+  color: #8B0000;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  vertical-align: middle;
 }
-
-.imgGallery:hover .infoGrid {
-    opacity: 1;
+.gallery .imgGallery:hover .infoGrid {
+  opacity: 1;
 }
-
-.img1,
-.img3 {
-    grid-row: span 2;
+.gallery .img1,
+.gallery .img3 {
+  grid-row: span 2;
 }
-
-.img2,
-.img4 {
-    grid-column: span 2;
+.gallery .img2,
+.gallery .img4 {
+  grid-column: span 2;
 }
-
-
-
 
 /* Contenido: Contacto */
 .formSection {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 .formSection form {
-    width: 25%;
+  width: 25%;
 }
-
 .formSection label {
-    display: block;
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 5px;
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
-
 .formSection input,
 .formSection textarea {
-    width: 100%;
-    font-size: 1.1rem;
-    font-family: "Inter", sans-serif;
-    border: none;
-    border-radius: 15px;
-    /* corner-shape: squircle; */
-    padding: 10px 8px;
+  width: 100%;
+  font-size: 1.1rem;
+  font-family: "Inter", sans-serif;
+  border: none;
+  border-radius: 15px;
+  /* corner-shape: squircle; */
+  padding: 10px 8px;
 }
-
 .formSection input {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-
 .formSection textarea {
-    height: 125px;
-    margin-bottom: 15px;
+  height: 125px;
+  margin-bottom: 15px;
 }
-
-.formSection input[type="submit"] {
-    display: block;
-    background-color: #8B0000;
-    color: #E5E5E5;
-    width: 175px;
-    font-family: "Jolly Lodger", system-ui;
-    font-size: 1.6rem;
-    border-radius: 50px;
-    /* corner-shape: squircle; */
-    margin: 0 auto;
-    cursor: pointer;
+.formSection input[type=submit] {
+  display: block;
+  background-color: #8B0000;
+  color: #E5E5E5;
+  width: 175px;
+  font-family: "Jolly Lodger", system-ui;
+  font-size: 1.6rem;
+  border-radius: 50px;
+  /* corner-shape: squircle; */
+  margin: 0 auto;
+  cursor: pointer;
 }
-
-.formSection input[type="submit"]:hover {
-    width: 190px;
+.formSection input[type=submit]:hover {
+  width: 190px;
 }
 
 .socialSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 70px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px 0;
 }
-
 .socialSection h3 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
-
-.socialMedia {
-    display: flex;
+.socialSection .socialMedia {
+  display: flex;
 }
-
-.socialMedia a {
-    display: flex;
-    align-items: center;
-    background-color: #E5E5E5;
-    color: #8B0000;
-    font-weight: 600;
-    font-size: 1.3rem;
-    text-decoration: none;
-    padding: 10px 40px;
-    margin: 10px 10px 0;
-    border-radius: 5px;
-    /* corner-shape: scoop; */
+.socialSection .socialMedia a {
+  display: flex;
+  align-items: center;
+  background-color: #E5E5E5;
+  color: #8B0000;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 10px 40px;
+  margin: 10px 10px 0;
+  border-radius: 5px;
+  /* corner-shape: scoop; */
 }
-
-.socialMedia a:hover {
-    background-color: #8B0000;
-    color: #E5E5E5;
-    padding: 10px 50px;
+.socialSection .socialMedia a:hover {
+  background-color: #8B0000;
+  color: #E5E5E5;
+  padding: 10px 50px;
 }
-
-.socialMedia svg {
-    width: 30px;
-    margin-right: 5px;
+.socialSection .socialMedia svg {
+  width: 30px;
+  margin-right: 5px;
 }
-
-
 
 /* Cita destacable (cada página) */
 .quoteSection {
-    background-color: #222230;
-    background-image: url(../assets/backgroundSecondary.png);
-    padding: 50px;
-    font-size: 1.9rem;
-    text-align: center;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  background-color: #222230;
+  background-image: url(../assets/backgroundSecondary.png);
+  padding: 50px;
+  font-size: 1.9rem;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
-
-
 
 /* Footer */
 .bgFooter {
-    align-content: center;
-    background: url(../assets/img/backgroundFooter.jpg) center;
-    background-size: cover;
-    height: 250px;
-    text-align: center;
-    font-size: 1.25rem;
+  align-content: center;
+  background: url(../assets/img/backgroundFooter.jpg) center;
+  background-size: cover;
+  height: 250px;
+  text-align: center;
+  font-size: 1.25rem;
 }
-
 .bgFooter a {
-    display: inline-block;
-    background-color: #0B0C10;
-    color: #fff;
-    text-decoration: none;
-    font-family: "Jolly Lodger", system-ui;
-    font-size: 1.875rem;
-    padding: 10px 20px;
-    margin-top: 15px;
-    border-radius: 50px;
-    /* corner-shape: squircle; */
+  display: inline-block;
+  background-color: #08080a;
+  color: #E5E5E5;
+  text-decoration: none;
+  font-family: "Jolly Lodger", system-ui;
+  font-size: 1.875rem;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 50px;
+  /* corner-shape: squircle; */
 }
-
 .bgFooter a:hover {
-    padding: 10px 30px;
+  padding: 10px 30px;
 }
 
 .footerWeb {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
 }
-
-.copySite p {
-    display: flex;
-    align-items: center;
+.footerWeb .copySite p {
+  display: flex;
+  align-items: center;
 }
-
-.copySite .copyHide {
-    display: none;
+.footerWeb .copySite .copyHide {
+  display: none;
 }
-
-.copySite strong {
-    font-family: "Jolly Lodger", system-ui;
-    font-size: 1.75rem;
-    margin-right: 5px;
+.footerWeb .copySite strong {
+  font-family: "Jolly Lodger", system-ui;
+  font-size: 1.75rem;
+  margin-right: 5px;
 }
-
-.copySite span {
-    color: #8B0000;
+.footerWeb .copySite span {
+  color: #8B0000;
 }
-
-.socialFooter {
-    display: flex;
+.footerWeb .socialFooter {
+  display: flex;
 }
-
-.socialFooter a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45px;
-    height: 45px;
-    color: #E5E5E5;
-    font-size: 1.5rem;
-    margin-left: 5px;
-    border-radius: 100%;
+.footerWeb .socialFooter a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  color: #E5E5E5;
+  font-size: 1.5rem;
+  margin-left: 5px;
+  border-radius: 100%;
 }
-
-.socialFooter a:hover {
-    background-color: #8B0000;
+.footerWeb .socialFooter a:hover {
+  background-color: #8B0000;
 }
-
-.socialFooter a img {
-    width: 25px;
-    height: 25px;
+.footerWeb .socialFooter a img {
+  width: 25px;
+  height: 25px;
 }
-
 
 /* Responsive Design */
-
 /* Mobile */
 @media (max-width: 480px) {
-    /* Encabezado */
-    #header {
-        flex-direction: column;
-        padding: 25px 0;
-    }
-
-    #header .logoWeb h1 {
-        margin-bottom: 10px;
-    }
-
-    .menuNav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .menuNav ul li a {
-        margin: 3px 0;
-    }
-
-
-    /* Contenido: Página principal */
-    .heroSite {
-        height: calc(100vh - 300px);
-    }
-
-    .heroSite .contentHero {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-bottom: 100px;
-    }
-
-    .heroSite .contentHero h2 {
-        font-size: 4rem;
-        line-height: 4.5rem;
-        margin-bottom: 20px;
-    }
-
-    .heroSite .contentHero a {
-        margin-top: 20px;
-        font-size: 1.7rem;
-        padding: 10px 40px;
-    }
-
-    .infoSite {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .textInfo {
-        width: 75%;
-        font-size: 1.2rem;
-    }
-
-    .imgGhost {
-        width: 50%;
-        margin: 0;
-        margin-bottom: 30px;
-    }
-
-    .moviesMonth {
-        padding: 0;
-    }
-
-    .nameMovie {
-        padding: 40px 20px 5px;
-    }
-
-    .moviesMonth a {
-        margin-bottom: 40px;
-    }
-
-
-    /* Contenido: Villanos */
-    .cardVillain article {
-        flex-direction: column;
-        width: 85%;
-        height: auto;
-    }
-
-    .imgVillain {
-        width: 100%;
-        height: 450px;
-    }
-
-    .imgVillain .skulls {
-        bottom: 20px;
-        font-size: 1.3rem;
-        padding: 5px 15px;
-    }
-
-    .infoVillain {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .infoVillain h2 {
-        font-size: 3rem;
-        margin: 5px 0;
-    }
-
-    .textVillain {
-        font-size: 1rem;
-    }
-
-
-    /* Contenido: Galería */
-    .gallery {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
-        width: 90%;
-        grid-auto-rows: 175px;
-    }
-
-    .imgGallery {
-        border-radius: 10px;
-    }
-
-
-    /* Contenido: Contacto */
-    .formSection form {
-        width: 85%;
-        margin-top: 20px;
-    }
-
-    .formSection input[type="submit"] {
-        margin: 0 0 0 auto;
-    }
-
-    .socialSection {
-        text-align: center;
-        margin: 70px 30px 50px;
-    }
-
-    .socialMedia {
-        flex-direction: column;
-    }
-
-    .socialMedia a {
-        margin: 8px 10px;
-    }
-
-
-    /* Footer */
-    .bgFooter {
-        height: auto;
-        padding: 70px 30px;
-    }
-
-    .footerWeb {
-        flex-direction: column;
-    }
-
-    .copySite .copyShow {
-        display: none;
-    }
-
-    .copySite .copyHide {
-        display: flex;
-    }
-
-    .copySite p {
-        font-size: 1.3rem;
-    }
-
-    .copySite strong {
-        font-size: 2.5rem;
-        margin-right: 10px;
-    }
-
-    .socialFooter a {
-        margin: 0 10px;
-    }
+  /* Encabezado */
+  #header {
+    flex-direction: column;
+    padding: 25px 0;
+  }
+  #header .logoWeb h1 {
+    margin-bottom: 10px;
+  }
+  #header .menuNav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  #header .menuNav ul li a {
+    margin: 3px 0;
+  }
+  /* Contenido: Página principal */
+  .heroSite {
+    height: calc(100vh - 300px);
+  }
+  .heroSite .contentHero {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  .heroSite .contentHero h2 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin-bottom: 20px;
+  }
+  .heroSite .contentHero a {
+    margin-top: 20px;
+    font-size: 1.7rem;
+    padding: 10px 40px;
+  }
+  .infoSite {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .infoSite .textInfo {
+    width: 75%;
+    font-size: 1.2rem;
+  }
+  .infoSite .imgGhost {
+    width: 50%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .moviesMonth {
+    padding: 0;
+  }
+  .moviesMonth .nameMovie {
+    padding: 40px 20px 5px;
+  }
+  .moviesMonth a {
+    margin-bottom: 40px;
+  }
+  /* Contenido: Villanos */
+  .cardVillain article {
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+  }
+  .cardVillain article .imgVillain {
+    width: 100%;
+    height: 450px;
+  }
+  .cardVillain article .imgVillain .skulls {
+    bottom: 20px;
+    font-size: 1.3rem;
+    padding: 5px 15px;
+  }
+  .cardVillain article .infoVillain {
+    width: 100%;
+    padding: 20px;
+  }
+  .cardVillain article .infoVillain h2 {
+    font-size: 3rem;
+    margin: 5px 0;
+  }
+  .cardVillain article .infoVillain .textVillain {
+    font-size: 1rem;
+  }
+  /* Contenido: Galería */
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    width: 90%;
+    grid-auto-rows: 175px;
+  }
+  .gallery .imgGallery {
+    border-radius: 10px;
+  }
+  /* Contenido: Contacto */
+  .formSection form {
+    width: 85%;
+    margin-top: 20px;
+  }
+  .formSection input[type=submit] {
+    margin: 0 0 0 auto;
+  }
+  .socialSection {
+    text-align: center;
+    margin: 70px 30px 50px;
+  }
+  .socialSection .socialMedia {
+    flex-direction: column;
+  }
+  .socialSection .socialMedia a {
+    display: flex;
+    justify-content: center;
+    margin: 8px 10px;
+  }
+  /* Footer */
+  .bgFooter {
+    height: auto;
+    padding: 70px 30px;
+  }
+  .footerWeb {
+    flex-direction: column;
+  }
+  .footerWeb .copySite .copyShow {
+    display: none;
+  }
+  .footerWeb .copySite .copyHide {
+    display: flex;
+  }
+  .footerWeb .copySite p {
+    font-size: 1.3rem;
+  }
+  .footerWeb .copySite strong {
+    font-size: 2.5rem;
+    margin-right: 10px;
+  }
+  .footerWeb .copySite a {
+    margin: 0 10px;
+  }
 }
+
+/*# sourceMappingURL=styles.css.map */
