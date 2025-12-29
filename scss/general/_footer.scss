@@ -1,4 +1,5 @@
 @use '../utilities/variables' as *;
+@use '../utilities/utilities' as *;
 
 
 /* Cita destacable (cada página) */
@@ -21,16 +22,12 @@
     font-size: 1.25rem;
 
     a {
+        @extend .btn;
         display: inline-block;
         background-color: $blackColor;
-        color: $whiteColor;
-        text-decoration: none;
-        font-family: $fontJolly;
         font-size: 1.875rem;
         padding: 10px 20px;
         margin-top: 15px;
-        border-radius: 50px;
-        /* corner-shape: squircle; */
 
         &:hover {
             padding: 10px 30px;

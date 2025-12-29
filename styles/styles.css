@@ -81,6 +81,20 @@ h1, h2, h3, h4 {
   margin-right: 5px;
 }
 
+.btn, .bgFooter a, .heroSite .contentHero a, .moviesMonth a, .villainSection a {
+  background-color: #8B0000;
+  color: #E5E5E5;
+  font-size: 1.7rem;
+  font-family: "Jolly Lodger", system-ui;
+  text-decoration: none;
+  padding: 8px 40px;
+  border-radius: 50px;
+  /* corner-shape: squircle; */
+}
+.btn:hover, .bgFooter a:hover, .heroSite .contentHero a:hover, .moviesMonth a:hover, .villainSection a:hover {
+  padding: 8px 50px;
+}
+
 /* Contenido: Página principal */
 .heroSite {
   display: flex;
@@ -110,18 +124,11 @@ h1, h2, h3, h4 {
   margin-top: -10px;
 }
 .heroSite .contentHero a {
-  background-color: #8B0000;
-  color: #E5E5E5;
-  font-size: 1.75rem;
-  font-family: "Jolly Lodger", system-ui;
-  text-decoration: none;
   margin-top: 30px;
-  padding: 10px 25px;
-  border-radius: 40px;
-  /* corner-shape: squircle; */
+  padding: 10px 30px;
 }
 .heroSite .contentHero a:hover {
-  padding: 10px 35px;
+  padding: 10px 40px;
 }
 
 /* Sección: Descripción del sitio web */
@@ -176,17 +183,7 @@ h1, h2, h3, h4 {
 }
 .moviesMonth a {
   background-color: #08080a;
-  color: #E5E5E5;
-  font-size: 1.7rem;
-  font-family: "Jolly Lodger", system-ui;
-  text-decoration: none;
   margin-top: 10px;
-  padding: 7px 30px;
-  border-radius: 50px;
-  /* corner-shape: squircle; */
-}
-.moviesMonth a:hover {
-  padding: 7px 40px;
 }
 
 /* Sección: Villano del mes */
@@ -208,21 +205,6 @@ h1, h2, h3, h4 {
   border: 1px solid #E5E5E5;
   border-radius: 10px;
 }
-.villainSection a {
-  background-color: #8B0000;
-  color: #E5E5E5;
-  font-size: 1.7rem;
-  font-family: "Jolly Lodger", system-ui;
-  text-decoration: none;
-  margin-top: -20px;
-  padding: 8px 25px;
-  border-radius: 50px;
-  /* corner-shape: squircle; */
-}
-.villainSection a:hover {
-  padding: 8px 35px;
-}
-
 /* Títulos en todas las páginas */
 .namePage {
   padding: 40px 30px 20px;
@@ -290,6 +272,7 @@ h1, h2, h3, h4 {
 }
 .cardTop article .infoTop .rateMovie span {
   margin-left: 2px;
+  vertical-align: middle;
 }
 
 /* Contenido: Villanos */
@@ -525,14 +508,9 @@ h1, h2, h3, h4 {
 .bgFooter a {
   display: inline-block;
   background-color: #08080a;
-  color: #E5E5E5;
-  text-decoration: none;
-  font-family: "Jolly Lodger", system-ui;
   font-size: 1.875rem;
   padding: 10px 20px;
   margin-top: 15px;
-  border-radius: 50px;
-  /* corner-shape: squircle; */
 }
 .bgFooter a:hover {
   padding: 10px 30px;

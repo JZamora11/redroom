@@ -1,0 +1,16 @@
+@use './variables' as *;
+
+.btn {
+    background-color: $redColor;
+    color: $whiteColor;
+    font-size: 1.7rem;
+    font-family: $fontJolly;
+    text-decoration: none;
+    padding: 8px 40px;
+    border-radius: 50px;
+    /* corner-shape: squircle; */
+
+    &:hover {
+        padding: 8px 50px;
+    }
+}
