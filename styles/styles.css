@@ -136,7 +136,7 @@ h1, h2, h3, h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 64px 0;
+  padding: 64px 50px;
 }
 .infoSite .textInfo {
   width: 600px;
@@ -357,7 +357,7 @@ h1, h2, h3, h4 {
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 300px;
+  grid-auto-rows: auto;
   grid-auto-flow: row dense;
   gap: 15px;
   width: 70%;
@@ -560,41 +560,33 @@ h1, h2, h3, h4 {
 }
 
 /* Responsive Design */
-/* Mobile */
-@media (max-width: 480px) {
+/* Tablet */
+@media (max-width: 834px) {
   /* Encabezado */
   #header {
     flex-direction: column;
-    padding: 25px 0;
-  }
-  #header .logoWeb h1 {
-    margin-bottom: 10px;
+    padding: 20px;
   }
   #header .menuNav ul {
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-  }
-  #header .menuNav ul li a {
-    margin: 3px 0;
   }
   /* Contenido: Página principal */
   .heroSite {
-    height: calc(100vh - 300px);
+    height: calc(100vh - 100px);
   }
   .heroSite .contentHero {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-bottom: 100px;
   }
   .heroSite .contentHero h2 {
-    font-size: 4rem;
+    font-size: 5.5rem;
     line-height: 4.5rem;
     margin-bottom: 20px;
   }
   .heroSite .contentHero a {
     margin-top: 20px;
-    font-size: 1.7rem;
     padding: 10px 40px;
   }
   .infoSite {
@@ -602,16 +594,16 @@ h1, h2, h3, h4 {
     text-align: center;
   }
   .infoSite .textInfo {
-    width: 75%;
-    font-size: 1.2rem;
+    width: 100%;
+    font-size: 1.3rem;
   }
   .infoSite .imgGhost {
-    width: 50%;
+    width: 150px;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   .moviesMonth {
-    padding: 0;
+    padding: 15px 60px;
   }
   .moviesMonth .nameMovie {
     padding: 40px 20px 5px;
@@ -621,22 +613,22 @@ h1, h2, h3, h4 {
   }
   /* Contenido: Villanos */
   .cardVillain article {
-    flex-direction: column;
-    width: 85%;
+    width: 90%;
     height: auto;
   }
   .cardVillain article .imgVillain {
-    width: 100%;
-    height: 450px;
+    width: 75%;
+    height: 350px;
   }
   .cardVillain article .imgVillain .skulls {
-    bottom: 20px;
-    font-size: 1.3rem;
     padding: 5px 15px;
+  }
+  .cardVillain article .imgVillain .skulls img {
+    width: 22px;
   }
   .cardVillain article .infoVillain {
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
   }
   .cardVillain article .infoVillain h2 {
     font-size: 3rem;
@@ -648,12 +640,76 @@ h1, h2, h3, h4 {
   /* Contenido: Galería */
   .gallery {
     grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
-    width: 90%;
-    grid-auto-rows: 175px;
+    gap: 10px;
+    width: 75%;
   }
   .gallery .imgGallery {
     border-radius: 10px;
+  }
+}
+/* Mobile */
+@media (max-width: 480px) {
+  /* Encabezado */
+  #header {
+    padding: 25px 0;
+  }
+  #header .logoWeb h1 {
+    margin-bottom: 10px;
+  }
+  #header .menuNav ul {
+    flex-direction: column;
+  }
+  #header .menuNav ul li a {
+    margin: 3px 0;
+  }
+  /* Contenido: Página principal */
+  .heroSite {
+    height: calc(100vh - 300px);
+  }
+  .heroSite .contentHero {
+    padding-bottom: 100px;
+  }
+  .heroSite .contentHero h2 {
+    font-size: 4rem;
+  }
+  .infoSite {
+    padding: 70px 0;
+  }
+  .infoSite .textInfo {
+    width: 75%;
+    font-size: 1.1rem;
+  }
+  .infoSite .imgGhost {
+    width: 125px;
+    margin-bottom: 30px;
+  }
+  .moviesMonth {
+    padding: 0;
+  }
+  /* Contenido: Villanos */
+  .cardVillain article {
+    flex-direction: column;
+    width: 85%;
+  }
+  .cardVillain article .imgVillain {
+    width: 100%;
+    height: 450px;
+  }
+  .cardVillain article .imgVillain .skulls {
+    bottom: 20px;
+    font-size: 1.3rem;
+  }
+  .cardVillain article .infoVillain {
+    padding: 20px;
+  }
+  /* Contenido: Galería */
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+  }
+  .gallery .img1, .gallery .img2, .gallery .img3, .gallery .img4 {
+    grid-column: auto;
+    grid-row: auto;
   }
   /* Contenido: Contacto */
   .formSection form {
