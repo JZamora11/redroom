@@ -34,6 +34,10 @@
             a {
                 margin-top: 20px;
                 padding: 10px 40px;
+
+                &:hover {
+                    padding: 10px 50px;
+                }
             }
         }
     }

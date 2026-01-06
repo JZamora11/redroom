@@ -37,6 +37,7 @@
             @extend .btn;
             margin-top: 30px;
             padding: 10px 30px;
+            transition: all .3s ease;
 
             &:hover {
                 padding: 10px 40px;
@@ -66,8 +67,10 @@
             width: 100%;
             height: auto;
             aspect-ratio: auto 1429 / 1956;
+            transition: all .3s ease;
 
             &:hover {
+                transform: rotate(5deg) scale(1.08);
                 filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.2));
             }
         }
@@ -155,21 +158,134 @@
             width: 40px;
             padding-bottom: 15px;
         }
-
+        
         h2 span {
             font-size: 2.2rem;
         }
-
+        
         hr {
             width: 40px;
             margin: 10px 0 20px;
             border: 2px solid $redColor;
             border-radius: 10px;
         }
-
+        
         p {
             font-size: 1.1rem;
             line-height: 1.7rem;
+        }
+    }
+
+    // Animación Globo
+    .balloonSvg {
+        animation: balloonSvg 3.5s linear infinite;
+    }
+
+    @keyframes balloonSvg {
+        0% {
+            transform: rotate(0);
+        }
+
+        10% {
+            transform: rotate(0);
+        }
+
+        20% {
+            transform: rotate(-15deg);
+        }
+
+        30% {
+            transform: rotate(15deg);
+        }
+
+        40% {
+            transform: rotate(-15deg);
+        }
+
+        50% {
+            transform: rotate(15deg);
+        }
+
+        60% {
+            transform: rotate(-15deg);
+        }
+
+        70% {
+            transform: rotate(15deg);
+        }
+
+        80% {
+            transform: rotate(0);
+        }
+
+        100% {
+            transform: rotate(0);
+        }
+    }
+
+    // Animación Gota
+    .dropSvg {
+        animation: dropSvg 5s ease-in infinite;
+    }
+
+    @keyframes dropSvg {
+        0% {
+            transform: translateY(0);
+        }
+
+        98% {
+            transform: translateY(15px) skew(0, 15deg);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    // Animación Vela
+    .candleSvg {
+        transform-origin: bottom center;
+        animation: candleSvg 2s linear infinite;
+    }
+
+    @keyframes candleSvg {
+        0% {
+            transform: scaleY(1);
+        }
+
+        50% {
+            transform: scaleY(1.10) scaleX(1.05);
+        }
+
+        100% {
+            transform: scaleY(1);
+        }
+    }
+
+    // Animación Fantasma
+    .ghostSvg {
+        animation: ghostSvg 4s linear infinite;
+    }
+
+    @keyframes ghostSvg {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        25% {
+            transform: translate(5px, 5px);
+        }
+
+        50% {
+            transform: translate(0px, 10px);
+        }
+
+        75% {
+            transform: translate(-5px, 5px);
+        }
+
+        100% {
+            transform: translate(0, 0);
         }
     }
 }

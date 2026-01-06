@@ -24,6 +24,7 @@
         width: 100%;
         overflow: hidden;
         box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        transition: all .3s ease;
 
         .infoGrid {
             position: absolute;
@@ -34,6 +35,7 @@
             line-height: 1.8rem;
             padding: 15px;
             opacity: 0;
+            transition: all .2s ease-out;
 
             span {
                 color: $redColor;
@@ -41,6 +43,10 @@
                 font-weight: lighter;
                 vertical-align: middle;
             }
+        }
+
+        &:hover {
+            transform: translateY(-5px);
         }
 
         &:hover .infoGrid {

@@ -9,6 +9,8 @@
         background-color: #E5E5E5;
 
         .imgMovie {
+            transition: all .3s ease;
+
             img {
                 width: 100%;
                 height: auto;
@@ -23,6 +25,10 @@
                 background-image: url(../assets/backgroundSecondary.png);
                 color: #E5E5E5;
                 font-size: 0.9rem;
+            }
+
+            &:hover {
+                transform: scale(0.97);
             }
         }
 

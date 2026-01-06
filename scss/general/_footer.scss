@@ -75,6 +75,7 @@
             font-size: 1.5rem;
             margin-left: 5px;
             border-radius: 100%;
+            transition: all .3s ease;
 
             &:hover {
                 background-color: $redColor;

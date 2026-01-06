@@ -48,6 +48,7 @@
         /* corner-shape: squircle; */
         margin: 0 auto;
         cursor: pointer;
+        transition: all .3s ease;
 
         &:hover {
             width: 190px;
@@ -79,6 +80,7 @@
             padding: 10px 40px;
             margin: 10px 10px 0;
             border-radius: 5px;
+            transition: all .3s ease;
             /* corner-shape: scoop; */
 
             &:hover {
