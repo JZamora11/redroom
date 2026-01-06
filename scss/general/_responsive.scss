@@ -109,6 +109,33 @@
             border-radius: 10px;
         }
     }
+
+    /* Contenido: Contacto */
+    .formSection {
+        form {
+            width: 85%;
+            margin-top: 20px;
+        }
+
+        input[type="submit"] {
+            margin: 0 0 0 auto;
+        }
+    }
+
+    .socialSection {
+        text-align: center;
+        margin: 70px 30px 50px;
+
+        .socialMedia {
+            flex-direction: column;
+
+            a {
+                display: flex;
+                justify-content: center;
+                margin: 8px 10px;
+            }
+        }
+    }
 }
 
 
@@ -195,34 +222,6 @@
         .img1, .img2, .img3, .img4 {
             grid-column: auto;
             grid-row: auto;
-        }
-    }
-
-
-    /* Contenido: Contacto */
-    .formSection {
-        form {
-            width: 85%;
-            margin-top: 20px;
-        }
-
-        input[type="submit"] {
-            margin: 0 0 0 auto;
-        }
-    }
-
-    .socialSection {
-        text-align: center;
-        margin: 70px 30px 50px;
-
-        .socialMedia {
-            flex-direction: column;
-
-            a {
-                display: flex;
-                justify-content: center;
-                margin: 8px 10px;
-            }
         }
     }
 

@@ -410,7 +410,7 @@ h1, h2, h3, h4 {
   justify-content: center;
 }
 .formSection form {
-  width: 25%;
+  width: 30%;
 }
 .formSection label {
   display: block;
@@ -479,7 +479,7 @@ h1, h2, h3, h4 {
 .socialSection .socialMedia a:hover {
   background-color: #8B0000;
   color: #E5E5E5;
-  padding: 10px 50px;
+  transform: scale(1.04);
 }
 .socialSection .socialMedia svg {
   width: 30px;
@@ -646,6 +646,26 @@ h1, h2, h3, h4 {
   .gallery .imgGallery {
     border-radius: 10px;
   }
+  /* Contenido: Contacto */
+  .formSection form {
+    width: 85%;
+    margin-top: 20px;
+  }
+  .formSection input[type=submit] {
+    margin: 0 0 0 auto;
+  }
+  .socialSection {
+    text-align: center;
+    margin: 70px 30px 50px;
+  }
+  .socialSection .socialMedia {
+    flex-direction: column;
+  }
+  .socialSection .socialMedia a {
+    display: flex;
+    justify-content: center;
+    margin: 8px 10px;
+  }
 }
 /* Mobile */
 @media (max-width: 480px) {
@@ -710,26 +730,6 @@ h1, h2, h3, h4 {
   .gallery .img1, .gallery .img2, .gallery .img3, .gallery .img4 {
     grid-column: auto;
     grid-row: auto;
-  }
-  /* Contenido: Contacto */
-  .formSection form {
-    width: 85%;
-    margin-top: 20px;
-  }
-  .formSection input[type=submit] {
-    margin: 0 0 0 auto;
-  }
-  .socialSection {
-    text-align: center;
-    margin: 70px 30px 50px;
-  }
-  .socialSection .socialMedia {
-    flex-direction: column;
-  }
-  .socialSection .socialMedia a {
-    display: flex;
-    justify-content: center;
-    margin: 8px 10px;
   }
   /* Footer */
   .bgFooter {
