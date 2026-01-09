@@ -19,7 +19,7 @@
 
 body {
   background-color: #08080a;
-  background-image: url(../assets/backgroundSite.png);
+  background-image: url(../assets/backgroundSite.webp);
   color: #E5E5E5;
   font-family: "Inter", sans-serif;
 }
@@ -71,7 +71,7 @@ h1, h2, h3, h4 {
 }
 #header .menuNav ul li a:hover, #header .menuNav ul li a.is-active {
   background-color: #8B0000;
-  background-image: url(../assets/backgroundSecondary.png);
+  background-image: url(../assets/backgroundSecondary.webp);
 }
 #header .menuNav ul li a.is-active {
   pointer-events: none;
@@ -280,7 +280,7 @@ h1, h2, h3, h4 {
   flex-direction: column;
   align-items: center;
   background-color: #222230;
-  background-image: url(../assets/backgroundSecondary.png);
+  background-image: url(../assets/backgroundSecondary.webp);
   padding: 50px 40px;
 }
 .moviesMonth .nameMovie {
@@ -344,7 +344,7 @@ h1, h2, h3, h4 {
   bottom: 12px;
   right: 7px;
   background-color: #8B0000;
-  background-image: url(../assets/backgroundSecondary.png);
+  background-image: url(../assets/backgroundSecondary.webp);
   color: #E5E5E5;
   font-size: 0.9rem;
 }
@@ -595,7 +595,7 @@ h1, h2, h3, h4 {
 /* Cita destacable (cada página) */
 .quoteSection {
   background-color: #222230;
-  background-image: url(../assets/backgroundSecondary.png);
+  background-image: url(../assets/backgroundSecondary.webp);
   padding: 50px;
   font-size: 1.9rem;
   text-align: center;
@@ -605,7 +605,7 @@ h1, h2, h3, h4 {
 /* Footer */
 .bgFooter {
   align-content: center;
-  background: url(../assets/img/backgroundFooter.jpg) center;
+  background: url(../assets/img/backgroundFooter.webp) center;
   background-size: cover;
   height: 250px;
   text-align: center;
