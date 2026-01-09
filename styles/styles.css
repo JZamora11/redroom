@@ -82,6 +82,120 @@ h1, h2, h3, h4 {
   margin-right: 5px;
 }
 
+/* Títulos en todas las páginas */
+.namePage {
+  padding: 40px 30px 20px;
+}
+.namePage .titlePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.namePage .titlePage img {
+  width: 40px;
+  padding-bottom: 15px;
+}
+.namePage .titlePage h2 span {
+  font-size: 2.2rem;
+}
+.namePage .titlePage hr {
+  width: 40px;
+  margin: 10px 0 20px;
+  border: 2px solid #8B0000;
+  border-radius: 10px;
+}
+.namePage .titlePage p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+.namePage .balloonSvg {
+  animation: balloonSvg 3.5s linear infinite;
+}
+@keyframes balloonSvg {
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  60% {
+    transform: rotate(-15deg);
+  }
+  70% {
+    transform: rotate(15deg);
+  }
+  80% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+.namePage .dropSvg {
+  animation: dropSvg 5s ease-in infinite;
+}
+@keyframes dropSvg {
+  0% {
+    transform: translateY(0);
+  }
+  98% {
+    transform: translateY(15px) skew(0, 15deg);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.namePage .candleSvg {
+  transform-origin: bottom center;
+  animation: candleSvg 2s linear infinite;
+}
+@keyframes candleSvg {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.1) scaleX(1.05);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.namePage .ghostSvg {
+  animation: ghostSvg 4s linear infinite;
+}
+@keyframes ghostSvg {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, 5px);
+  }
+  50% {
+    transform: translate(0px, 10px);
+  }
+  75% {
+    transform: translate(-5px, 5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
 .btn, .bgFooter a, .heroSite .contentHero a, .moviesMonth a, .villainSection a {
   background-color: #8B0000;
   color: #E5E5E5;
@@ -210,120 +324,6 @@ h1, h2, h3, h4 {
   border: 1px solid #E5E5E5;
   border-radius: 10px;
 }
-/* Títulos en todas las páginas */
-.namePage {
-  padding: 40px 30px 20px;
-}
-.namePage .titlePage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  font-size: 2rem;
-  line-height: 2.5rem;
-}
-.namePage .titlePage img {
-  width: 40px;
-  padding-bottom: 15px;
-}
-.namePage .titlePage h2 span {
-  font-size: 2.2rem;
-}
-.namePage .titlePage hr {
-  width: 40px;
-  margin: 10px 0 20px;
-  border: 2px solid #8B0000;
-  border-radius: 10px;
-}
-.namePage .titlePage p {
-  font-size: 1.1rem;
-  line-height: 1.7rem;
-}
-.namePage .balloonSvg {
-  animation: balloonSvg 3.5s linear infinite;
-}
-@keyframes balloonSvg {
-  0% {
-    transform: rotate(0);
-  }
-  10% {
-    transform: rotate(0);
-  }
-  20% {
-    transform: rotate(-15deg);
-  }
-  30% {
-    transform: rotate(15deg);
-  }
-  40% {
-    transform: rotate(-15deg);
-  }
-  50% {
-    transform: rotate(15deg);
-  }
-  60% {
-    transform: rotate(-15deg);
-  }
-  70% {
-    transform: rotate(15deg);
-  }
-  80% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(0);
-  }
-}
-.namePage .dropSvg {
-  animation: dropSvg 5s ease-in infinite;
-}
-@keyframes dropSvg {
-  0% {
-    transform: translateY(0);
-  }
-  98% {
-    transform: translateY(15px) skew(0, 15deg);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-.namePage .candleSvg {
-  transform-origin: bottom center;
-  animation: candleSvg 2s linear infinite;
-}
-@keyframes candleSvg {
-  0% {
-    transform: scaleY(1);
-  }
-  50% {
-    transform: scaleY(1.1) scaleX(1.05);
-  }
-  100% {
-    transform: scaleY(1);
-  }
-}
-.namePage .ghostSvg {
-  animation: ghostSvg 4s linear infinite;
-}
-@keyframes ghostSvg {
-  0% {
-    transform: translate(0, 0);
-  }
-  25% {
-    transform: translate(5px, 5px);
-  }
-  50% {
-    transform: translate(0px, 10px);
-  }
-  75% {
-    transform: translate(-5px, 5px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
 /* Contenido: Top Terror */
 .cardTop {
   color: #07080a;
