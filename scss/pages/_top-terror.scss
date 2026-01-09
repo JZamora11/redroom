@@ -10,12 +10,13 @@
 
         .imgMovie {
             transition: all .3s ease;
+            aspect-ratio: auto 1920 / 1080;
 
             img {
                 width: 100%;
-                height: auto;
-                aspect-ratio: auto 1920 / 1080;
+                height: 100%;
                 box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+                object-fit: cover;
             }
 
             span {
