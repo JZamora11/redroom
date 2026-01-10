@@ -54,13 +54,11 @@
         }
     }
 
-    .img1,
-    .img3 {
+    .imgVer {
         grid-row: span 2;
     }
 
-    .img2,
-    .img4 {
+    .imgHor {
         grid-column: span 2;
     }
 }

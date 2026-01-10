@@ -500,12 +500,10 @@ h1, h2, h3, h4 {
 .gallery .imgGallery:hover .infoGrid {
   opacity: 1;
 }
-.gallery .img1,
-.gallery .img3 {
+.gallery .imgVer {
   grid-row: span 2;
 }
-.gallery .img2,
-.gallery .img4 {
+.gallery .imgHor {
   grid-column: span 2;
 }
 
