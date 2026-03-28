@@ -1,0 +1,5 @@
+[
+    {"img": "../assets/img/topTerror/raw_2016.webp", "alt": "Una niña con una bata blanca y cabello recogido está mirando fijamente hacia el horizonte. Por el orificio izquierdo de su nariz, se nota un gota de sangre caer", "categoria": "💀 Condenada", "nombre": "Raw", "año": 2016, "genero": ["drama", "comedia negra", "adolescencia"], "calificacion": 6, "descripcion": "Un despertar inquietante, impulsos prohibidos... ", "tagline": "y un hambre que no se puede ignorar."},
+
+    {"img": "../assets/img/topTerror/apartment7A_2024.webp", "alt": "Una mujer con un suéter verde mirando hacia arriba, frente a una puerta con el '7A' en ella. Luces cálidas en el pasillo", "categoria": "🌑 Olvidada", "nombre": "Departamento 7A", "año": 2024, "genero": ["thriller", "satanismo", "sobrenatural"], "calificacion": 5, "descripcion": "Un nuevo hogar, reglas inquietantes... y ", "tagline": "algo oscuro que nunca debió despertarse."}
+]
