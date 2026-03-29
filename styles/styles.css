@@ -354,6 +354,10 @@ h1, h2, h3, h4 {
 }
 .cardTop article .infoTop {
   font-size: 0.9rem;
+  margin-top: 3px;
+}
+.cardTop article .infoTop h3 {
+  line-height: 35px;
 }
 .cardTop article .infoTop h3 span {
   color: #8B0000;
