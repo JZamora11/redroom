@@ -23,7 +23,7 @@ function cargarPeliculas() {
 
     contadorPeliculas += 12;
 
-    if (contadorPeliculas > peliculas.length) {
+    if (contadorPeliculas >= peliculas.length) {
         observadorPeliculas.unobserve(observador);
     }
 }

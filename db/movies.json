@@ -65,6 +65,126 @@
     "descripcion": "La posesión más aterradora del cine... y la ",
     "tagline": "lucha de fe que cambió el terror para siempre."
   },
+
+
+
+
+
+
+
+
+
+
+  {
+    "nombre": "Los intrusos",
+    "año": 2015,
+    "genero": ["thriller"],
+    "calificacion": 3,
+    "categoria": "🌑 Olvidada",
+    "img": "../assets/img/topTerror/theIntruders_2015.webp",
+    "alt": "AAA",
+    "descripcion": "A veces el verdadero peligro... ",
+    "tagline": "ya está dentro de la casa."
+  },
+  {
+    "nombre": "REC 4: Apocalipsis",
+    "año": 2014,
+    "genero": ["accion", "zombies", "pandemias"],
+    "calificacion": 4,
+    "categoria": "🌑 Olvidada",
+    "img": "../assets/img/topTerror/REC4_2014.webp",
+    "alt": "AAA",
+    "descripcion": "La infección llegó al mar... ",
+    "tagline": "y el horror está lejos de terminar."
+  },
+  {
+    "nombre": "REC 3: Génesis",
+    "año": 2012,
+    "genero": ["zombies", "comedia", "gore"],
+    "calificacion": 4,
+    "categoria": "🌑 Olvidada",
+    "img": "../assets/img/topTerror/REC3_2012.webp",
+    "alt": "AAA",
+    "descripcion": "Lo que debía ser el día más feliz... ",
+    "tagline": "se convierte en una boda de sangre."
+  },
+  {
+    "nombre": "REC 2",
+    "año": 2009,
+    "genero": ["zombies", "secuela", "metraje encontrado"],
+    "calificacion": 6,
+    "categoria": "💀 Condenada",
+    "img": "../assets/img/topTerror/REC2_2009.webp",
+    "alt": "AAA",
+    "descripcion": "La infección no terminó... ",
+    "tagline": "y ahora nadie puede escapar del edificio."
+  },
+  {
+    "nombre": "REC",
+    "año": 2007,
+    "genero": ["zombies", "metraje encontrado", "bomberos"],
+    "calificacion": 7,
+    "categoria": "💀 Condenada",
+    "img": "../assets/img/topTerror/REC_2007.webp",
+    "alt": "Primer plano de una mujer mirando a la cámara. Está en una habitación muy oscura y la flash de la cámara, color cálido, es la única fuente de luz que hay",
+    "descripcion": "Una noche de grabación rutinaria... hasta que ",
+    "tagline": "el horror queda atrapado dentro del edificio."
+  },
+  {
+    "nombre": "Scary Movie 5",
+    "año": 2013,
+    "genero": ["comedia", "parodia", "sobrenatural"],
+    "calificacion": 2,
+    "categoria": "⚰️ Sepultada",
+    "img": "../assets/img/topTerror/scaryMovie5_2013.webp",
+    "alt": "Tres personas sentadas en un sillón café discutiendo. Cada una de estas tiene una particularidad en su cuerpo",
+    "descripcion": "Nuevas víctimas, nuevas parodias... ",
+    "tagline": "y el absurdo más grande de la saga."
+  },
+  {
+    "nombre": "Scary Movie 4",
+    "año": 2006,
+    "genero": ["comedia", "parodia", "secuela"],
+    "calificacion": 4,
+    "categoria": "🌑 Olvidada",
+    "img": "../assets/img/topTerror/scaryMovie4_2006.webp",
+    "alt": "Dos chicas mirándose una a la otra asustadas, con una trampa de osos atada a sus cuellos",
+    "descripcion": "Entre invasiones alienígenas, casas embrujadas y señales extrañas... ",
+    "tagline": "el caos está garantizado."
+  },
+  {
+    "nombre": "Scary Movie 3",
+    "año": 2003,
+    "genero": ["comedia", "parodia", "secuela"],
+    "calificacion": 4,
+    "categoria": "🌑 Olvidada",
+    "img": "../assets/img/topTerror/scaryMovie3_2003.webp",
+    "alt": "Dos personas discutiendo alteradamente, mientras otra persona en el medio de ellos, con un gorro en su cabeza y unos auriculares rodeando su cuello, los observa atentamente",
+    "descripcion": "Cuando las invasiones, las maldiciones y el apocalipsis se juntan... ",
+    "tagline": "la parodia comienza."
+  },
+  {
+    "nombre": "Scary Movie 2",
+    "año": 2001,
+    "genero": ["comedia", "parodia", "posesiones"],
+    "calificacion": 7,
+    "categoria": "💀 Condenada",
+    "img": "../assets/img/topTerror/scaryMovie2_2001.webp",
+    "alt": "Un hombre con un traje elegante hablando con una chica, y cerca a su boca tiene su mano izquierda la cual es diferente, más pequeña",
+    "descripcion": "La casa está embrujada... ",
+    "tagline": "y el terror nunca fue tan absurdo."
+  },
+  {
+    "nombre": "Scary Movie",
+    "año": 2000,
+    "genero": ["comedia", "parodia", "slasher"],
+    "calificacion": 7,
+    "categoria": "💀 Condenada",
+    "img": "../assets/img/topTerror/scaryMovie_2000.webp",
+    "alt": "El personaje Ghostface está sentado en un sillón, con un teléfono en su mano derecha, y en la izquierda tiene una botella de gaseosa",
+    "descripcion": "Nada está a salvo... ",
+    "tagline": "cuando el terror se vuelve ridículamente mortal."
+  },
   {
     "nombre": "Pesadilla en la calle Elm",
     "año": 2010,
