@@ -1,5 +1,38 @@
 [
   {
+    "nombre": "Eden Lake",
+    "año": 2008,
+    "genero": ["thriller", "gore"],
+    "calificacion": 5,
+    "categoria": "🌑 Olvidada",
+    "img": "../assets/img/topTerror/edenLake_2008.webp",
+    "alt": "AAA",
+    "descripcion": "Un fin de semana tranquilo... ",
+    "tagline": "se convierte en una pesadilla imposible de escapar."
+  },
+  {
+    "nombre": "Doctor Sueño",
+    "año": 2019,
+    "genero": ["thriller", "sobrenatural", "secuela"],
+    "calificacion": 7,
+    "categoria": "💀 Condenada",
+    "img": "../assets/img/topTerror/doctorSleep_2019.webp",
+    "alt": "AAA",
+    "descripcion": "Los dones que una vez lo atormentaron... ",
+    "tagline": "ahora lo obligan a enfrentar un nuevo horror."
+  },
+  {
+    "nombre": "Frankenstein",
+    "año": 2025,
+    "genero": ["fantastico", "ciencia ficcion", "monstruos"],
+    "calificacion": 8,
+    "categoria": "🔥 Maldita",
+    "img": "../assets/img/topTerror/frankenstein_2025.webp",
+    "alt": "AAA",
+    "descripcion": "Una creación nacida de la ambición... ",
+    "tagline": "destinada a enfrentar el rechazo del mundo."
+  },
+  {
     "nombre": "Raw",
     "año": 2016,
     "genero": ["drama", "comedia negra", "adolescencia"],
@@ -111,7 +144,7 @@
   {
     "nombre": "REC 2",
     "año": 2009,
-    "genero": ["zombies", "secuela", "metraje encontrado"],
+    "genero": ["zombies", "secuela", "found footage"],
     "calificacion": 6,
     "categoria": "💀 Condenada",
     "img": "../assets/img/topTerror/REC2_2009.webp",
@@ -122,7 +155,7 @@
   {
     "nombre": "REC",
     "año": 2007,
-    "genero": ["zombies", "metraje encontrado", "bomberos"],
+    "genero": ["zombies", "found footage", "bomberos"],
     "calificacion": 7,
     "categoria": "💀 Condenada",
     "img": "../assets/img/topTerror/REC_2007.webp",
