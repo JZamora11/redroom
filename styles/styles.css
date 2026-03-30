@@ -351,7 +351,7 @@ h1, h2, h3, h4 {
   outline: none;
 }
 .filtros-seccion .filtros div select {
-  background-image: url(../../assets/icons/chevron-down.svg);
+  background-image: url(../assets/icons/chevron-down.svg);
   background-size: 18px;
   background-repeat: no-repeat;
   background-position: right 5px center;
@@ -367,7 +367,7 @@ h1, h2, h3, h4 {
 }
 .filtros-seccion .filtros div input[type=search]::-webkit-search-cancel-button {
   -webkit-appearance: none;
-  background: url(../../assets/icons/x.svg);
+  background: url(../assets/icons/x.svg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 18px;
