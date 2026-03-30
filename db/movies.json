@@ -2,101 +2,110 @@
   {
     "nombre": "Eden Lake",
     "año": 2008,
-    "genero": ["thriller", "gore"],
+    "genero": ["gore-extremo", "psicologico-drama"],
     "calificacion": 5,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/edenLake_2008.webp",
     "alt": "AAA",
     "descripcion": "Un fin de semana tranquilo... ",
-    "tagline": "se convierte en una pesadilla imposible de escapar."
+    "tagline": "se convierte en una pesadilla imposible de escapar.",
+    "tags": ["survival", "michael fassbender", "kelly reilly", "lago", "bosque", "gore"]
   },
   {
     "nombre": "Doctor Sueño",
     "año": 2019,
-    "genero": ["thriller", "sobrenatural", "secuela"],
+    "genero": ["sobrenatural", "psicologico-drama"],
     "calificacion": 7,
-    "categoria": "💀 Condenada",
+    "categoria": "condenada",
     "img": "../assets/img/topTerror/doctorSleep_2019.webp",
     "alt": "AAA",
     "descripcion": "Los dones que una vez lo atormentaron... ",
-    "tagline": "ahora lo obligan a enfrentar un nuevo horror."
+    "tagline": "ahora lo obligan a enfrentar un nuevo horror.",
+    "tags": ["el resplandor", "stephen king", "danny torrance", "ewan mcgregor", "shining", "secuela"]
   },
   {
     "nombre": "Frankenstein",
     "año": 2025,
-    "genero": ["fantastico", "ciencia ficcion", "monstruos"],
+    "genero": ["monstruos-criaturas"],
     "calificacion": 8,
-    "categoria": "🔥 Maldita",
+    "categoria": "maldita",
     "img": "../assets/img/topTerror/frankenstein_2025.webp",
     "alt": "AAA",
     "descripcion": "Una creación nacida de la ambición... ",
-    "tagline": "destinada a enfrentar el rechazo del mundo."
+    "tagline": "destinada a enfrentar el rechazo del mundo.",
+    "tags": ["guillermo del toro", "oscar isaac", "jacob elordi", "monstruo", "clasico", "ciencia ficcion"]
   },
   {
     "nombre": "Raw",
     "año": 2016,
-    "genero": ["drama", "comedia negra", "adolescencia"],
+    "genero": ["psicologico-drama", "gore-extremo"],
     "calificacion": 6,
-    "categoria": "💀 Condenada",
+    "categoria": "condenada",
     "img": "../assets/img/topTerror/raw_2016.webp",
     "alt": "Una niña con una bata blanca y cabello recogido está mirando fijamente hacia el horizonte. Por el orificio izquierdo de su nariz, se nota un gota de sangre caer",
     "descripcion": "Un despertar inquietante, impulsos prohibidos... ",
-    "tagline": "y un hambre que no se puede ignorar."
+    "tagline": "y un hambre que no se puede ignorar.",
+    "tags": ["canibalismo", "julia ducournau", "frances", "adolescencia", "crudo", "voraz"]
   },
   {
     "nombre": "Departamento 7A",
     "año": 2024,
-    "genero": ["thriller", "satanismo", "sobrenatural"],
+    "genero": ["sobrenatural", "psicologico-drama"],
     "calificacion": 5,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/apartment7A_2024.webp",
     "alt": "Una mujer con un suéter verde mirando hacia arriba, frente a una puerta con el '7A' en ella. Luces cálidas en el pasillo",
     "descripcion": "Un nuevo hogar, reglas inquietantes... y ",
-    "tagline": "algo oscuro que nunca debió despertarse."
+    "tagline": "algo oscuro que nunca debió despertarse.",
+    "tags": ["el bebe de rosemary", "precuela", "satanismo", "secta", "apartamento", "julia garner"]
   },
   {
     "nombre": "The Devil's Rejects",
     "año": 2005,
-    "genero": ["años 70", "asesinos en serie", "slasher"],
+    "genero": ["slasher", "gore-extremo"],
     "calificacion": 7,
-    "categoria": "💀 Condenada",
+    "categoria": "condenada",
     "img": "../assets/img/topTerror/theDevilsRejects_2005.webp",
     "alt": "Una banda de tres personas caminan agotadas por una ruta extensa. Llevan consigo diferentes armas en sus manos y en sus prendas y cuerpos, se logra distinguir rastros de sangre",
     "descripcion": "La maldad no se esconde... ",
-    "tagline": "viaja por carretera y deja un rastro de sangre."
+    "tagline": "viaja por carretera y deja un rastro de sangre.",
+    "tags": ["rob zombie", "capitan spaulding", "familia firefly", "road movie", "asesinos seriales", "años 70"]
   },
   {
     "nombre": "El Babadook",
     "año": 2014,
-    "genero": ["thriller", "sobrenatural", "monstruos"],
+    "genero": ["psicologico-drama", "monstruos-criaturas"],
     "calificacion": 6,
-    "categoria": "💀 Condenada",
+    "categoria": "condenada",
     "img": "../assets/img/topTerror/theBabadook_2014.webp",
     "alt": "Una señora, su hijo pequeño y un perro blanco observan por debajo de la cama buscando a alguien. Es de día, la habitación tiene paredes azules y el suelo es de madera",
     "descripcion": "Un inquietante libro infantil despierta algo... y el ",
-    "tagline": "terror comienza a susurrar su nombre."
+    "tagline": "terror comienza a susurrar su nombre.",
+    "tags": ["maternidad", "depresion", "libro", "monstruo", "casa", "australia"]
   },
   {
     "nombre": "El Sexto Sentido",
     "año": 1999,
-    "genero": ["intriga", "drama", "sobrenatural"],
+    "genero": ["psicologico-drama", "sobrenatural"],
     "calificacion": 9,
-    "categoria": "🔥 Maldita",
+    "categoria": "maldita",
     "img": "../assets/img/topTerror/theSixthSense_1999.webp",
     "alt": "Niño con lágrimas en sus ojos, recostado en una cama y arropándose con su cobija fuertemente. Se le ve con síntomas de preocupación",
     "descripcion": "Un niño con un secreto escalofriante... ",
-    "tagline": "y un final que jamás olvidarás."
+    "tagline": "y un final que jamás olvidarás.",
+    "tags": ["bruce willis", "m. night shyamalan", "fantasmas", "veo gente muerta", "twist", "intriga"]
   },
   {
     "nombre": "El Exorcista",
     "año": 1973,
-    "genero": ["posesiones", "exorcismos", "religion"],
+    "genero": ["sobrenatural"],
     "calificacion": 9,
-    "categoria": "🔥 Maldita",
+    "categoria": "maldita",
     "img": "../assets/img/topTerror/theExorcist_1973.webp",
     "alt": "Una niña sentada en un sillón, con el brazo semi levantado y su codo flexionado pero la mano caída, sin fuerzas. Tiene una expresión en su rostro muy serio y malvado",
     "descripcion": "La posesión más aterradora del cine... y la ",
-    "tagline": "lucha de fe que cambió el terror para siempre."
+    "tagline": "lucha de fe que cambió el terror para siempre.",
+    "tags": ["regan macneil", "posesion", "demonio", "pazuzu", "clásico", "william friedkin", "religion"]
   },
 
 
@@ -105,293 +114,317 @@
 
 
 
-
-
-
+  
   {
     "nombre": "Los intrusos",
     "año": 2015,
-    "genero": ["thriller"],
+    "genero": ["psicologico-drama"],
     "calificacion": 3,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/theIntruders_2015.webp",
     "alt": "Una mujer asustada frente a una ventana, mira hacia atrás. Se encuentra en una casa sin luces interiores",
     "descripcion": "A veces el verdadero peligro... ",
-    "tagline": "ya está dentro de la casa."
+    "tagline": "ya está dentro de la casa.",
+    "tags": ["home invasion", "casa", "misterio", "miranda cosgrove"]
   },
   {
     "nombre": "REC 4: Apocalipsis",
     "año": 2014,
-    "genero": ["accion", "zombies", "pandemias"],
+    "genero": ["zombie-pandemias"],
     "calificacion": 4,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/REC4_2014.webp",
     "alt": "Una mujer con una hacha grande, se encuentra agachada mientras le habla a una persona que se encuentra en el suelo",
     "descripcion": "La infección llegó al mar... ",
-    "tagline": "y el horror está lejos de terminar."
+    "tagline": "y el horror está lejos de terminar.",
+    "tags": ["angela vidal", "barco", "virus", "infeccion", "jaume balaguero", "español", "zombies"]
   },
   {
     "nombre": "REC 3: Génesis",
     "año": 2012,
-    "genero": ["zombies", "comedia", "gore"],
+    "genero": ["zombie-pandemias", "comedia-parodia", "gore-extremo"],
     "calificacion": 4,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/REC3_2012.webp",
     "alt": "Una pareja de recién casado, empapados de sudor, miran fijamente hacia al frente con los rostros asustados y un poco de sangre en sus vestidos",
     "descripcion": "Lo que debía ser el día más feliz... ",
-    "tagline": "se convierte en una boda de sangre."
+    "tagline": "se convierte en una boda de sangre.",
+    "tags": ["boda", "motosierra", "novia", "español", "paco plaza", "infeccion", "zombies"]
   },
   {
     "nombre": "REC 2",
     "año": 2009,
-    "genero": ["zombies", "secuela", "found footage"],
+    "genero": ["zombie-pandemias", "found-footage"],
     "calificacion": 6,
-    "categoria": "💀 Condenada",
+    "categoria": "condenada",
     "img": "../assets/img/topTerror/REC2_2009.webp",
     "alt": "Tres personas discutiendo en la calle. La noche es clara y detrás de estos sujetos se encuentran varios policías protegiendo con armas la zona",
     "descripcion": "La infección no terminó... ",
-    "tagline": "y ahora nadie puede escapar del edificio."
+    "tagline": "y ahora nadie puede escapar del edificio.",
+    "tags": ["edificio", "barcelona", "geos", "camara en mano", "posesion", "demoniaco", "zombies"]
   },
   {
     "nombre": "REC",
     "año": 2007,
-    "genero": ["zombies", "found footage", "bomberos"],
+    "genero": ["zombie-pandemias", "found-footage"],
     "calificacion": 7,
-    "categoria": "💀 Condenada",
+    "categoria": "condenada",
     "img": "../assets/img/topTerror/REC_2007.webp",
     "alt": "Primer plano de una mujer mirando a la cámara. Está en una habitación muy oscura y la flash de la cámara, color cálido, es la única fuente de luz que hay",
     "descripcion": "Una noche de grabación rutinaria... hasta que ",
-    "tagline": "el horror queda atrapado dentro del edificio."
+    "tagline": "el horror queda atrapado dentro del edificio.",
+    "tags": ["manuela velasco", "niña medeiros", "bomberos", "periodista", "realismo", "español", "zombies"]
   },
   {
     "nombre": "Scary Movie 5",
     "año": 2013,
-    "genero": ["comedia", "parodia", "sobrenatural"],
+    "genero": ["comedia-parodia"],
     "calificacion": 2,
-    "categoria": "⚰️ Sepultada",
+    "categoria": "sepultada",
     "img": "../assets/img/topTerror/scaryMovie5_2013.webp",
-    "alt": "Tres personas sentadas en un sillón café discutiendo. Cada una de estas tiene una particularidad en su cuerpo",
+    "alt": "Tres personas sentadas en un sillón café discutiendo.",
     "descripcion": "Nuevas víctimas, nuevas parodias... ",
-    "tagline": "y el absurdo más grande de la saga."
+    "tagline": "y el absurdo más grande de la saga.",
+    "tags": ["humor", "mama", "actividad paranormal", "charlie sheen", "snoop dogg", "risa"]
   },
   {
     "nombre": "Scary Movie 4",
     "año": 2006,
-    "genero": ["comedia", "parodia", "secuela"],
+    "genero": ["comedia-parodia"],
     "calificacion": 4,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/scaryMovie4_2006.webp",
-    "alt": "Dos chicas mirándose una a la otra asustadas, con una trampa de osos atada a sus cuellos",
+    "alt": "Dos chicas mirándose una a la otra asustadas.",
     "descripcion": "Entre invasiones alienígenas, casas embrujadas y señales extrañas... ",
-    "tagline": "el caos está garantizado."
+    "tagline": "el caos está garantizado.",
+    "tags": ["el grito", "guerra de los mundos", "saw", "anna faris", "cindy campbell", "humor"]
   },
   {
     "nombre": "Scary Movie 3",
     "año": 2003,
-    "genero": ["comedia", "parodia", "secuela"],
+    "genero": ["comedia-parodia"],
     "calificacion": 4,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/scaryMovie3_2003.webp",
-    "alt": "Dos personas discutiendo alteradamente, mientras otra persona en el medio de ellos, con un gorro en su cabeza y unos auriculares rodeando su cuello, los observa atentamente",
+    "alt": "Dos personas discutiendo alteradamente.",
     "descripcion": "Cuando las invasiones, las maldiciones y el apocalipsis se juntan... ",
-    "tagline": "la parodia comienza."
+    "tagline": "la parodia comienza.",
+    "tags": ["the ring", "señales", "alienigenas", "pozo", "niña del pozo", "leslie nielsen", "risa"]
   },
   {
     "nombre": "Scary Movie 2",
     "año": 2001,
-    "genero": ["comedia", "parodia", "posesiones"],
+    "genero": ["comedia-parodia"],
     "calificacion": 7,
-    "categoria": "💀 Condenada",
+    "categoria": "condenada",
     "img": "../assets/img/topTerror/scaryMovie2_2001.webp",
-    "alt": "Un hombre con un traje elegante hablando con una chica, y cerca a su boca tiene su mano izquierda la cual es diferente, más pequeña",
+    "alt": "Un hombre con un traje elegante hablando con una chica.",
     "descripcion": "La casa está embrujada... ",
-    "tagline": "y el terror nunca fue tan absurdo."
+    "tagline": "y el terror nunca fue tan absurdo.",
+    "tags": ["casa helen", "mano pequeña", "mayordomo", "el exorcista", "mansion", "humor"]
   },
   {
     "nombre": "Scary Movie",
     "año": 2000,
-    "genero": ["comedia", "parodia", "slasher"],
+    "genero": ["comedia-parodia", "slasher"],
     "calificacion": 7,
-    "categoria": "💀 Condenada",
+    "categoria": "condenada",
     "img": "../assets/img/topTerror/scaryMovie_2000.webp",
-    "alt": "El personaje Ghostface está sentado en un sillón, con un teléfono en su mano derecha, y en la izquierda tiene una botella de gaseosa",
+    "alt": "El personaje Ghostface está sentado en un sillón.",
     "descripcion": "Nada está a salvo... ",
-    "tagline": "cuando el terror se vuelve ridículamente mortal."
+    "tagline": "cuando el terror se vuelve ridículamente mortal.",
+    "tags": ["scream", "ghostface", "asesino", "mascara", "wazzup", "parodia", "teen horror"]
   },
   {
     "nombre": "Pesadilla en la calle Elm",
     "año": 2010,
-    "genero": ["fantastico", "slasher", "sobrenatural"],
+    "genero": ["slasher", "sobrenatural"],
     "calificacion": 3,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/aNightmareOnElmStreet_2010.webp",
-    "alt": "Freddy está apoyando sus cuchillas del guante sobre una pared. Se logra distinguir la silueta del mismo con una iluminación cálida a sus espaldas",
+    "alt": "Freddy está apoyando sus cuchillas del guante sobre una pared.",
     "descripcion": "Cuando duermes... ",
-    "tagline": "él te encuentra."
+    "tagline": "él te encuentra.",
+    "tags": ["freddy krueger", "remake", "guante", "quemado", "sueños", "jackie earle haley"]
   },
   {
     "nombre": "Freddy contra Jason",
     "año": 2003,
-    "genero": ["fantastico", "slasher", "secuela"],
+    "genero": ["slasher", "monstruos-criaturas"],
     "calificacion": 3,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/freddyVsJason_2003.webp",
-    "alt": "En una habitación cubierta por el fuego, se logra detallar a Freddy luchando contra Jason. cada uno con su atuendo referente",
+    "alt": "En una habitación cubierta por el fuego, se logra detallar a Freddy luchando contra Jason.",
     "descripcion": "Dos leyendas del terror... ",
-    "tagline": "una batalla donde solo la pesadilla sobrevivirá."
+    "tagline": "una batalla donde solo la pesadilla sobrevivirá.",
+    "tags": ["freddy krueger", "jason voorhees", "crossover", "viernes 13", "campamento crystal lake"]
   },
   {
     "nombre": "La nueva pesadilla",
     "año": 1994,
-    "genero": ["fantastico", "surrealismo", "secuela"],
+    "genero": ["sobrenatural", "slasher"],
     "calificacion": 4,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/newNightmare_1994.webp",
-    "alt": "Freddy, quien porta un sombrero viejo y negro, tiene una mirada seria y sus rasgos faciales cambiaron un poco, de acuerdo a su faceta en anteriores películas",
+    "alt": "Freddy, quien porta un sombrero viejo y negro.",
     "descripcion": "Cuando la pesadilla deja la ficción... ",
-    "tagline": "el verdadero Freddy despierta."
+    "tagline": "el verdadero Freddy despierta.",
+    "tags": ["wes craven", "meta-terror", "freddy krueger", "pelicula dentro de pelicula", "realidad"]
   },
   {
     "nombre": "Pesadilla en la calle Elm 5",
     "año": 1989,
-    "genero": ["fantastico", "slasher", "secuela"],
+    "genero": ["slasher", "sobrenatural"],
     "calificacion": 4,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/aNightmareOnElmStreet5_1989.webp",
-    "alt": "Freddy acecha a una chica, quien tiene el cabello rubio y una mirada de terror, por la espalda mientras le dice algo a su oído",
+    "alt": "Freddy acecha a una chica.",
     "descripcion": "En los sueños nace el miedo... ",
-    "tagline": "y Freddy vuelve más fuerte que nunca."
+    "tagline": "y Freddy vuelve más fuerte que nunca.",
+    "tags": ["freddy krueger", "sueños", "bebe", "secuela", "robert englund"]
   },
   {
     "nombre": "Pesadilla en la calle Elm 4",
     "año": 1988,
-    "genero": ["slasher", "secuela"],
+    "genero": ["slasher"],
     "calificacion": 4,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/aNightmareOnElmStreet4_1988.webp",
-    "alt": "En una habitación oscura, con tonos rojos y verdes, Freddy está de pie con su tradicional vestimenta. Tiene una mano en el bolsillo y la otra cerca de su rostro, exhibiendo el guante",
+    "alt": "Freddy está de pie con su tradicional vestimenta.",
     "descripcion": "Puedes correr despierto... pero ",
-    "tagline": "en tus sueños, él siempre vuelve."
+    "tagline": "en tus sueños, él siempre vuelve.",
+    "tags": ["freddy krueger", "dream master", "sueños", "secuela", "robert englund"]
   },
   {
     "nombre": "Pesadilla en la calle Elm 3",
     "año": 1987,
-    "genero": ["fantastico", "slasher", "secuela"],
+    "genero": ["slasher", "sobrenatural"],
     "calificacion": 3,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/aNightmareOnElmStreet3_1987.webp",
-    "alt": "Está Freddy, en primer plano, con su sombrero tradicional. En todos los dedos de sus manos tiene jeringas, simulando las clásicas cuchillas de su guante",
+    "alt": "Freddy con jeringas en los dedos.",
     "descripcion": "Los sueños se vuelven campo de batalla... y ",
-    "tagline": "la pesadilla es más fuerte que nunca."
+    "tagline": "la pesadilla es más fuerte que nunca.",
+    "tags": ["freddy krueger", "dream warriors", "hospital", "guerreros del sueño", "robert englund"]
   },
   {
     "nombre": "Pesadilla en la calle Elm 2",
     "año": 1985,
-    "genero": ["slasher", "secuela"],
+    "genero": ["slasher"],
     "calificacion": 4,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/aNightmareOnElmStreet2_1985.webp",
-    "alt": "Se ve a un hombre desnudo, en plano medio, tomando una ducha. Tiene sangre en su cuerpo y se observa que en la mano derecha tiene el guante de Freddy",
+    "alt": "Un hombre desnudo tomando una ducha.",
     "descripcion": "En la oscuridad de la noche, ",
-    "tagline": "la pesadilla vuelve para reclamar una nueva víctima."
+    "tagline": "la pesadilla vuelve para reclamar una nueva víctima.",
+    "tags": ["freddy krueger", "posesion", "venganza", "secuela", "robert englund"]
   },
   {
     "nombre": "Pesadilla en la Calle Elm",
     "año": 1984,
-    "genero": ["slasher", "surrealismo", "pelicula de culto"],
+    "genero": ["slasher", "sobrenatural"],
     "calificacion": 7,
-    "categoria": "💀 Condenada",
+    "categoria": "condenada",
     "img": "../assets/img/topTerror/aNightmareOnElmStreet_1984.webp",
-    "alt": "En un lugar sin buena iluminación y con un poco de niebla, se logra observar la silueta de un hombre con sombrero y un guante, que en sus dedos, porta unas largas cuchillas",
+    "alt": "Silueta de un hombre con sombrero y guante de cuchillas.",
     "descripcion": "Cuando cierras los ojos para dormir... ",
-    "tagline": "él convierte tus sueños en una pesadilla real."
+    "tagline": "él convierte tus sueños en una pesadilla real.",
+    "tags": ["freddy krueger", "robert englund", "guante", "sueños", "clásico", "nancy thompson", "cine de culto"]
   },
   {
     "nombre": "El muñeco diabólico",
     "año": 2019,
-    "genero": ["muñecos", "slasher", "comedia"],
+    "genero": ["slasher", "comedia-parodia", "monstruos-criaturas"],
     "calificacion": 6,
-    "categoria": "💀 Condenada",
+    "categoria": "condenada",
     "img": "../assets/img/topTerror/childsPlay_2019.webp",
-    "alt": "Un niño con un hoodie rojo está jugando con un muñeco a un juego de mesa, en una habitación oscura, con pequeñas bombillas",
+    "alt": "Un niño con un hoodie rojo está jugando con un muñeco.",
     "descripcion": "El amigo perfecto para un niño... ",
-    "tagline": "hasta que aprende a matar."
+    "tagline": "hasta que aprende a matar.",
+    "tags": ["chucky", "buddi", "ia", "robot", "muñeco", "remake"]
   },
   {
     "nombre": "Culto a Chucky",
     "año": 2017,
-    "genero": ["muñecos", "slasher", "secuela"],
+    "genero": ["slasher", "monstruos-criaturas"],
     "calificacion": 4,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/cultOfChucky_2017.webp",
-    "alt": "El muñeco Chucky tiene su cabello descontrolado y se encuentra en una habitación oscura. En su mano izquierda tiene un mini taladro",
+    "alt": "Chucky con cabello descontrolado.",
     "descripcion": "En un lugar donde nadie está a salvo... ",
-    "tagline": "el mal se multiplica y la locura toma el control."
+    "tagline": "el mal se multiplica y la locura toma el control.",
+    "tags": ["chucky", "hospital psiquiatrico", "muñeco", "posesion", "nica pierce"]
   },
   {
     "nombre": "La maldición de Chucky",
     "año": 2013,
-    "genero": ["slasher", "sobrenatural", "muñecos"],
+    "genero": ["slasher", "sobrenatural", "monstruos-criaturas"],
     "calificacion": 3,
-    "categoria": "⚰️ Sepultada",
+    "categoria": "sepultada",
     "img": "../assets/img/topTerror/curseOfChucky_2013.webp",
-    "alt": "El muñeco Chucky, con sus distintivas cicatrices, está dentro de una caja abierta y consigo, trae un cuchillo. Es una habitación clara por la mañana",
+    "alt": "El muñeco Chucky dentro de una caja abierta.",
     "descripcion": "Un paquete misterioso llega a casa... y ",
-    "tagline": "el terror vuelve disfrazado de inocencia."
+    "tagline": "el terror vuelve disfrazado de inocencia.",
+    "tags": ["chucky", "muñeco", "venganza", "familia", "misterio"]
   },
   {
     "nombre": "El hijo de Chucky",
     "año": 2004,
-    "genero": ["romance", "comedia", "slasher"],
+    "genero": ["comedia-parodia", "slasher"],
     "calificacion": 2,
-    "categoria": "⚰️ Sepultada",
+    "categoria": "sepultada",
     "img": "../assets/img/topTerror/seedOfChucky_2004.webp",
-    "alt": "Se ve a dos muñecos en plano medio. La novia de Chucky tiene un vestido de bodas y un tatuaje de corazón en su pecho; está mirando hacia abajo. Chucky está observando un cuchillo de cocina que trae en su mano derecha, muy cerca",
+    "alt": "Se ve a dos muñecos en plano medio.",
     "descripcion": "Una familia nada común... y un ",
-    "tagline": "nuevo heredero del caos listo para hacer de las suyas."
+    "tagline": "nuevo heredero del caos listo para hacer de las suyas.",
+    "tags": ["chucky", "tiffany", "glen", "glenda", "muñeco", "humor negro"]
   },
   {
     "nombre": "La novia de Chucky",
     "año": 1998,
-    "genero": ["comedia", "thriller", "romance"],
+    "genero": ["slasher", "comedia-parodia"],
     "calificacion": 3,
-    "categoria": "⚰️ Sepultada",
+    "categoria": "sepultada",
     "img": "../assets/img/topTerror/brideOfChucky_1998.webp",
-    "alt": "Se ven a dos muñecos en un primer plano sonriendo, en un cuarto con una iluminación tenue y oscura. Chucky en su rostro denota varias cicatrices recientes",
+    "alt": "Se ven a dos muñecos sonriendo.",
     "descripcion": "Cuando el amor es retorcido... ",
-    "tagline": "la novia perfecta también puede matar."
+    "tagline": "la novia perfecta también puede matar.",
+    "tags": ["chucky", "tiffany", "jennifer tilly", "muñeco", "romance", "vudu"]
   },
   {
     "nombre": "Chucky, el Muñeco Diabólico 3",
     "año": 1991,
-    "genero": ["posesiones", "exorcismos", "religion"],
+    "genero": ["slasher", "monstruos-criaturas"],
     "calificacion": 5,
-    "categoria": "🌑 Olvidada",
+    "categoria": "olvidada",
     "img": "../assets/img/topTerror/childsPlay3_1991.webp",
-    "alt": "Muñeco Chucky con una mirada terrorífica y una sonrisa malvada. En su mano derecha trae una cuchilla de afeitar",
+    "alt": "Muñeco Chucky con una mirada terrorífica.",
     "descripcion": "Un nuevo comienzo... hasta que ",
-    "tagline": "el muñeco más temido regresa para jugar otra vez."
+    "tagline": "el muñeco más temido regresa para jugar otra vez.",
+    "tags": ["chucky", "academia militar", "muñeco", "andy barclay"]
   },
   {
     "nombre": "Chucky, el Muñeco Diabólico 2",
     "año": 1990,
-    "genero": ["posesiones", "exorcismos", "religion"],
+    "genero": ["slasher", "monstruos-criaturas"],
     "calificacion": 6,
-    "categoria": "💀 Condenada",
+    "categoria": "condenada",
     "img": "../assets/img/topTerror/childsPlay2_1990.webp",
-    "alt": "El muñeco Chucky tiene una sonrisa macabra hacia el suelo. Primer plano de su rostro. Habitación cálida",
+    "alt": "El muñeco Chucky tiene una sonrisa macabra.",
     "descripcion": "Creían haberlo dejado atrás... pero ",
-    "tagline": "el juego mortal vuelve a comenzar."
+    "tagline": "el juego mortal vuelve a comenzar.",
+    "tags": ["chucky", "fabrica de juguetes", "muñeco", "andy barclay", "secuela"]
   },
   {
     "nombre": "Chucky, el Muñeco Diabólico",
     "año": 1988,
-    "genero": ["slasher", "asesinos en serie", "muñecos"],
+    "genero": ["slasher", "monstruos-criaturas"],
     "calificacion": 6,
-    "categoria": "💀 Condenada",
+    "categoria": "condenada",
     "img": "../assets/img/topTerror/childsPlay_1988.webp",
-    "alt": "Una mujer y su hijo sentados en un sillón observando detalladamente al muñeco Chucky",
-    "descripcion": "Un muñeco aparentemente inofensivo... hasta que ",
-    "tagline": "el terror empieza a moverse por sí solo."
+    "alt": "Una mujer y su hijo mirando al muñeco Chucky.",
+    "descripcion": "Un muñeco aparentemente inofensivo... ",
+    "tagline": "el terror empieza a moverse por sí solo.",
+    "tags": ["chucky", "charles lee ray", "andy barclay", "muñeco", "vudu", "clásico"]
   }
 ]

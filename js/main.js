@@ -28,9 +28,18 @@ function cargarPeliculas() {
     }
 }
 
+const formatoCategorias = {
+    "sagrada": "🕯️ Sagrada",
+    "maldita": "🔥 Maldita",
+    "condenada": "💀 Condenada",
+    "olvidada": "🌑 Olvidada",
+    "sepultada": "⚰️ Sepultada"
+};
+
 function listaPeliculas(copiaPeliculas) {
     copiaPeliculas.forEach(pelicula => {
         const card = document.createElement("div");
+        const categoriaFormateada = formatoCategorias[pelicula.categoria] || pelicula.categoria;
         card.className = "col-12 col-md-6 col-lg-3 cardTop d-flex";
 
         const listaGeneros = pelicula.genero.join(", ");
@@ -39,7 +48,7 @@ function listaPeliculas(copiaPeliculas) {
         card.innerHTML = `<article class="p-2 rounded-2 h-100">
                                 <div class="imgMovie position-relative">
                                     <img src="${pelicula.img}" alt="${pelicula.alt}" draggable="false" class="rounded-1">
-                                    <span class="position-absolute fw-semibold py-1 px-2 rounded-1">${pelicula.categoria}</span>
+                                    <span class="position-absolute fw-semibold py-1 px-2 rounded-1">${categoriaFormateada}</span>
                                 </div>
 
                                 <div class="infoTop pt-1 pb-2 px-2">
@@ -52,6 +61,50 @@ function listaPeliculas(copiaPeliculas) {
         contenedorPeliculas.appendChild(card);
     })
 }
+
+const ordenarFiltro = document.getElementById("ordenar-movie");
+const subgeneroFiltro = document.getElementById("subgenero-movie");
+const categoriaFiltro = document.getElementById("categoria-movie");
+
+function filtros() {
+    const ordenar = ordenarFiltro.value;
+    const subgenero = subgeneroFiltro.value;
+    const categoria = categoriaFiltro.value;
+    
+    contenedorPeliculas.innerHTML = "";
+    let peliculasFiltradas = peliculas.slice();
+
+    // Ordenar por
+    if (ordenar === "peor-calificacion") {
+        peliculasFiltradas = peliculasFiltradas.sort((a, b) => a.calificacion - b.calificacion);
+    } else if (ordenar === "mejor-calificacion") {
+        peliculasFiltradas = peliculasFiltradas.sort((a, b) => b.calificacion - a.calificacion);
+    } else if (ordenar === "año-antiguas") {
+        peliculasFiltradas = peliculasFiltradas.sort((a, b) => a.año - b.año);
+    } else if (ordenar === "año-nuevas") {
+        peliculasFiltradas = peliculasFiltradas.sort((a, b) => b.año - a.año);
+    }
+
+    // Subgénero
+    if (subgenero !== "all") {
+        peliculasFiltradas = peliculasFiltradas.filter(pelicula => pelicula.genero.includes(subgenero));
+    }
+
+    // Observador
+    if (ordenar === "") {
+        contenedorPeliculas.innerHTML = "";
+        contadorPeliculas = 0;
+        cargarPeliculas();
+        observadorPeliculas.observe(observador);
+    }
+
+    observadorPeliculas.unobserve(observador);
+    listaPeliculas(peliculasFiltradas);
+}
+
+ordenarFiltro.addEventListener('change', filtros);
+subgeneroFiltro.addEventListener('change', filtros);
+// categoriaFiltro.addEventListener('change', filtros);
 
 const observadorPeliculas = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
